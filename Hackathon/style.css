@@ -56,11 +56,9 @@ ul li a{
 /* header */
 .header{
     height: 91vh;
-    /* margin-top: 2rem; */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    /* background-size: cover; */
 }
 .tagline{
     width:50% ;
