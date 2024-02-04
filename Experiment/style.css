@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Protest+Riot&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container{
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+}
+
+
+.container h1{
+    font-family: 'Protest Riot', sans-serif;
+    width: 50%;
+    display: inline-block;
+    font-size: 40px;
+    border-bottom: 5px solid purple;
+    margin-bottom: 15px;
+    padding: 13px 0;
+}
+
+.box{
+    width: 100%;
+    margin: 22px 0;
+    border-bottom: 2px solid purple;
+}
+
+.box input{
+    background: none;
+    width: 75%;
+    padding: 5px 10px;
+    font-size: 23px;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.box i{
+    width: 25%;
+    text-align: center;
+}
+
+
+.btn{
+    font-family: 'Protest Revolution', sans-serif;
+    color: white;
+    outline: none;
+    margin: 12px 0;
+    cursor: pointer;
+    padding: 10px 21px;
+    border: 2px solid purple;
+    border-radius: 10px;
+    font-size: 18px;
+    background: none;
+    font-weight: bold;
+}
+.btn:hover{
+    color: purple;
+    background: white;
+}
