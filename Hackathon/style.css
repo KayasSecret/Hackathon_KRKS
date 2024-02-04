@@ -10,10 +10,10 @@
   }
 
 body {
-    background-color: white;
+    /* background-color: white;
     background-image: url(bg-img-2.jpg);
     background-size: cover;
-    height: 100vh;
+    height: 100vh; */
 }
 .nav{
     height: 4vh;
