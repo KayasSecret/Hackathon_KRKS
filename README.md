@@ -1,2 +1,2 @@
 # Hackathon_KRKS
-# This is College project
+This is College project
