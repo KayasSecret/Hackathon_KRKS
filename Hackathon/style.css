@@ -9,20 +9,14 @@
     font-family: 'Poppins', sans-serif;
   }
 
-/* body {
-    background-color: white;
-    background-image: url(bg-img-2.jpg);
-    background-size: cover;
-    height: 100vh;
-} */
 .nav{
     height: 4vh;
     display: flex;
-    /* background-color: rgb(39, 38, 38); */
     background-color: white;
     justify-content: space-between;
     align-items: center
 }
+
 .head-f1 {
     margin-top: 1rem;
     margin-left: 2rem;
@@ -32,12 +26,13 @@
     border-radius: 0.5rem;
     font-size: 1.3rem;
 }
+
 .head-f2 {
     margin-top: 1rem;
-    /* background-color: rgb(216, 195, 236); */
     width: 60%;
     font-size: 1.2rem;
 }
+
 ul{
     margin: 0;
     padding: 0;
@@ -50,19 +45,16 @@ ul{
 
 ul li a{
     text-decoration: none; 
-    /* padding: 0.5rem; */
     color: black;
 }
 
 /* header */
 .header{
     height: 91vh;
-    /* margin-top: 2rem; */
     display: flex;
     justify-content: flex-start;
     justify-content: space-evenly;
     align-items: center;
-    /* background-size: cover; */
 }
 
 .tagline{
