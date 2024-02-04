@@ -56,12 +56,17 @@ ul li a{
 /* header */
 .header{
     height: 91vh;
+    /* margin-top: 2rem; */
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    /* background-size: cover; */
 }
 .tagline{
     width:50% ;
+}
+.img{
+    width: 50%;
 }
 h1 {
     color: black;
