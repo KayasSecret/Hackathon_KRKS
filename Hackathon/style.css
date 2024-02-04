@@ -47,6 +47,7 @@ ul{
     list-style: none;
     
 }
+
 ul li a{
     text-decoration: none; 
     /* padding: 0.5rem; */
@@ -66,13 +67,17 @@ ul li a{
 .tagline{
     width:50% ;
 }
-.head_img{
+
+.head_img {
     height: 100px;
     width: 100px;
     background-image: url("bcg_img.avif");
+}
+
 .img{
     width: 50%;
 }
+
 h1 {
     color: black;
     font-size: 2.5rem;
@@ -80,5 +85,4 @@ h1 {
 
 p {
     color: black
-}
 }
