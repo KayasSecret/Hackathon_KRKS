@@ -7,71 +7,121 @@
     outline: none;
     scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
-  }
+}
 
 .nav{
-    height: 4vh;
     display: flex;
     background-color: white;
     justify-content: space-between;
-    align-items: center
+    align-items: center;
+    padding: 1rem
 }
 
 .head-f1 {
-    margin-top: 1rem;
-    margin-left: 2rem;
-    background-color: green;
-    width: 15%;
+    margin-left: 3rem;
+    width:fit-content;
     text-align: center;
     border-radius: 0.5rem;
-    font-size: 1.3rem;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
 }
 
 .head-f2 {
     margin-top: 1rem;
     width: 60%;
     font-size: 1.2rem;
+    width: 65%;
+    font-size: 1.3rem;
 }
 
 ul{
     margin: 0;
     padding: 0;
+    /* width: 50rem ; */
     display: flex;
     justify-content: space-around;
     align-items: center;
-    list-style: none;
-    
+    list-style: none;   
 }
-
 ul li a{
     text-decoration: none; 
+    padding: 0.5rem;
     color: black;
+    border-bottom: 3px solid transparent;
+}
+ul li a:hover{
+    border-bottom: 3px solid rgb(32, 99, 216);
 }
 
+.login_btn{
+    border: 2px solid rgb(32, 99, 216);
+    width: fit-content;
+    border-radius: 0.5rem;
+    color:rgb(32, 99, 216);
+}
 /* header */
 .header{
     height: 91vh;
     display: flex;
     justify-content: flex-start;
+    height: 90vh;
+    display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
 .tagline{
-    width: 50%;
-    margin: 12rem;
-    
+    width: 35rem;
+    height:18rem;
+    padding: 1rem;
 }
 
 .img{
     width: 2px;
 }
 
-h1 {
+h1 
+.head_img{
+    height: 30rem;
+    width: 45rem;
+    background-image: url(bcg_img.jpg);
+    background-size: cover;
+}
+.heading h1 {
     color: black;
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
-p {
-    color: black
+.description p {
+    color: black;
+}
+
+/* main content */
+.main_heading{
+    text-align: center;
+}
+.card_container{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{ 
+    height:30rem;
+    width: 25%;
+}
+.card_img{
+    height: 70%;
+}
+.details{
+    padding: 0.5rem;
+}
+
+/* footer */
+footer{
+    margin-top: 2rem;
+    height: 10rem;
+    background-color: black;
+    color: white;
 }
