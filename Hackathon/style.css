@@ -63,6 +63,7 @@ ul li a:hover{
 /* header */
 .header{
     height: 91vh;
+    /* width: 100vh; */
     display: flex;
     justify-content: flex-start;
     height: 90vh;
@@ -73,28 +74,23 @@ ul li a:hover{
 
 .tagline{
     width: 35rem;
-    height:18rem;
+    height:25rem;
     padding: 1rem;
 }
 
-.img{
+/* .img{
     width: 2px;
-}
+} */
 
-h1 
 .head_img{
     height: 30rem;
-    width: 45rem;
-    background-image: url(bcg_img.jpg);
-    background-size: cover;
-}
-.heading h1 {
-    color: black;
-    font-size: 3rem;
+    width: 30rem;
+    /* background-image: url(bcg_img.jpg); */
+    /* background-size: cover; */
 }
 
-.description p {
-    color: black;
+.heading h1 {
+    font-size: 3rem;
 }
 
 /* main content */
