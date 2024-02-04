@@ -58,15 +58,12 @@ ul li a{
     height: 91vh;
     /* margin-top: 2rem; */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     /* background-size: cover; */
 }
 .tagline{
     width:50% ;
-}
-.img{
-    width: 50%;
 }
 h1 {
     color: black;
@@ -74,5 +71,5 @@ h1 {
 }
 
 p {
-    color: black
+    color: black;
 }
