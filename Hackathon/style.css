@@ -64,8 +64,11 @@ ul li a{
     align-items: center;
     /* background-size: cover; */
 }
+
 .tagline{
-    width:50% ;
+    width: 50%;
+    margin: 12rem;
+    
 }
 
 .head_img {
