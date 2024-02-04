@@ -65,6 +65,9 @@ ul li a{
 .tagline{
     width:50% ;
 }
+.img{
+    width: 50%;
+}
 h1 {
     color: black;
     font-size: 2.5rem;
