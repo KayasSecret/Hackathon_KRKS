@@ -46,6 +46,7 @@ ul{
     list-style: none;
     
 }
+
 ul li a{
     text-decoration: none; 
     /* padding: 0.5rem; */
@@ -61,12 +62,23 @@ ul li a{
     align-items: center;
     /* background-size: cover; */
 }
+
 .tagline{
-    width:50% ;
+    width: 50%;
+    margin: 12rem;
+    
 }
+
+.head_img {
+    height: 100px;
+    width: 100px;
+    background-image: url("bcg_img.avif");
+}
+
 .img{
     width: 50%;
 }
+
 h1 {
     color: black;
     font-size: 2.5rem;
