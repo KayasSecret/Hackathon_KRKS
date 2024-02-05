@@ -34,8 +34,7 @@
     width: 65%;
     font-size: 1.3rem;
 }
-
-ul{
+.head-f2 ul{
     margin: 0;
     padding: 0;
     /* width: 50rem ; */
@@ -101,7 +100,7 @@ ul li a:hover{
 
 .search_box{
     height: 3rem;
-    width: 85vw;
+    width: 75vw;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -116,30 +115,31 @@ ul li a:hover{
 }
 .search_bar{
     margin-left: 1rem;
-    width: 50rem;
+    width:100rem;
     font-size: 1.3rem;
     background-color: #f7f6f6;
     color: lightgray;
 }
 .filters{
-    margin: 1rem 0 0 1rem;
-    display: flex;
-    /* flex-direction: column; */
-    /* justify-content: space-evenly; */
+    margin: 1rem 0rem 0rem 1rem;
+}
+.filter_list ul, .address{
+   display: flex;
 }
 .filter_list ul li{
-    padding-left: 1rem;
+    padding: 0.3rem;
+    list-style: none;
     font-size: 1.3rem;
 }
 .card_container{
     padding: 0;
     margin:0;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
 }
 .card{ 
-    margin: 1rem 0rem 0rem 1rem;
+    margin: 1.2rem 0rem 0rem 1.2rem;
     height:30rem;
     width: 25%;
     box-shadow: 1px 1px 3px 1px;
@@ -148,14 +148,39 @@ ul li a:hover{
     height: 70%;
     border-radius: 0.3rem;
 }
-.details{
-    padding: 0.5rem;
+.address i {
+    padding: 0.3rem;
 }
-
+.address h4{
+    font-size: 1.2rem;
+}
+.details{
+    padding: 0.3rem;
+}
+.details h3{
+    padding: 0.3rem;
+    background-color: green;
+    color: white;
+    width: fit-content;
+    border-radius: 0.5rem;
+    font-size: 1.3rem;
+}
+.show_more{
+    margin-top: 1.2rem;
+    text-align: center;
+}
+.more_btn{
+    padding: 0.3rem;
+    font-size: 1.2rem;
+    background-color: white;
+    border: 2px solid rgb(32, 99, 216);
+    color: rgb(32, 99, 216);
+    border-radius: 0.5rem;
+}
 /* footer */
 footer{
     margin-top: 2rem;
     height: 10rem;
-    background-color: black;
+    background-color: rgb(54, 51, 51);
     color: white;
 }
