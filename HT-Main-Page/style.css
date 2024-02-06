@@ -164,9 +164,57 @@ ul li a:hover{
     color: rgb(32, 99, 216);
     border-radius: 0.5rem;
 }
+
+/* ====review section===== */
+.main-block {
+    border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: teal;
+    margin-left: 3rem;
+    }
+form {
+    border-radius: 2%;
+    padding: 25px;
+    margin: 25px;
+    box-shadow: 5px 5px 10px #555; 
+    background: #cecdcd; 
+}
+    
+input, textarea {
+    width: calc(100% - 18px);
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(13, 170, 170);
+    outline: none;
+}
+
+input::placeholder {
+    color: #666;
+}
+
+button {
+    width: 40%;
+    border-radius: 10%;
+    padding: 10px;
+    border: none;
+    background: rgb(4, 187, 187); 
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+button:hover {
+    background: #005991;
+}
+
 /* =====footer===== */
 footer{
     margin-top: 2rem;
+    margin-left: 3rem;
     height: 10rem;
     background-color: rgb(54, 51, 51);
     color: white;
