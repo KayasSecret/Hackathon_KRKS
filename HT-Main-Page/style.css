@@ -68,7 +68,7 @@ ul li a:hover{
 .header{
     height: 91vh;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     height: 90vh;
     display: flex;
     justify-content: space-evenly;
@@ -81,21 +81,15 @@ ul li a:hover{
     padding: 1rem;
 }
 
-.head_img{
-    height: 30rem;
-    width: 30rem;
-    margin-bottom: 5rem;
-}
-
 .heading h1 {
-    font-size: 4rem;
+    font-size: 5rem;
     color: #fff;
     font-weight: 10rem;
 }
 
 .description p {
     color: #fff;
-    size: 2rem;
+    font-size: 2rem;
 }
 
 /* =====main content===== */
