@@ -9,6 +9,14 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    background-image: url();
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .nav{
     display: flex;
     background-color: white;
