@@ -74,21 +74,15 @@ ul li a:hover{
 }
 
 .tagline{
-    width: 35rem;
-    height:25rem;
+    /* width: 35rem;
+    height:25rem; */
     padding: 1rem;
     color: black;
 }
 
 .head_img{
-<<<<<<< Updated upstream
-    height: 30rem;
-    width: 30rem;
-    margin-bottom: 5rem;
-=======
     height: 30%;
     width: 20%;
->>>>>>> Stashed changes
 }
 
 .heading h1 {
@@ -104,6 +98,10 @@ ul li a:hover{
 
 .main_heading{
     text-align: center;
+}
+
+.search_control{
+    display: flex;
 }
 
 .search_box{
@@ -211,7 +209,7 @@ ul li a:hover{
     background-color: teal;
     margin-left: 3rem;
     }
-form {
+.contact {
     border-radius: 2%;
     padding: 25px;
     margin: 25px;
@@ -219,7 +217,7 @@ form {
     background: #cecdcd; 
 }
     
-input, textarea {
+.contact input, textarea {
     width: calc(100% - 18px);
     padding: 8px;
     margin-bottom: 20px;
