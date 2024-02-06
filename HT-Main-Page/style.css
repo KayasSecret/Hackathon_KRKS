@@ -77,15 +77,9 @@ ul li a:hover{
     padding: 1rem;
 }
 
-/* .img{
-    width: 2px;
-} */
-
 .head_img{
     height: 30rem;
     width: 30rem;
-    /* background-image: url(bcg_img.jpg); */
-    /* background-size: cover; */
 }
 
 .heading h1 {
