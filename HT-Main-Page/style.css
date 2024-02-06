@@ -9,13 +9,13 @@
     font-family: 'Bitter' , 'Oxygen' , 'Roboto';
 }
 
-body {
+/* body {
     background-image: url(/images/web_background.jpg);
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 
 .nav{
     height: 4rem;
@@ -68,10 +68,8 @@ ul li a:hover{
 .header{
     height: 91vh;
     display: flex;
-    justify-content: flex-start;
-    height: 90vh;
-    display: flex;
     justify-content: space-evenly;
+    height: 90vh;
     align-items: center;
 }
 
@@ -79,22 +77,26 @@ ul li a:hover{
     width: 35rem;
     height:25rem;
     padding: 1rem;
+    color: black;
 }
 
 .head_img{
+<<<<<<< Updated upstream
     height: 30rem;
     width: 30rem;
     margin-bottom: 5rem;
+=======
+    height: 30%;
+    width: 20%;
+>>>>>>> Stashed changes
 }
 
 .heading h1 {
     font-size: 4rem;
-    color: #fff;
     font-weight: 10rem;
 }
 
 .description p {
-    color: #fff;
     size: 2rem;
 }
 
