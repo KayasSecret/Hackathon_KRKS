@@ -10,7 +10,7 @@
 }
 
 body {
-    background-image: url(web_background.jpg);
+    background-image: url(/images/web_background.jpg);
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -18,11 +18,12 @@ body {
 }
 
 .nav{
+    height: 4rem;
     display: flex;
-    background-color: white;
-    justify-content: space-between;
+    background-color: rgb(202, 201, 201);
+    justify-content: space-evenly;
     align-items: center;
-    padding: 1rem
+    padding-bottom: 1rem;
 }
 
 .head-f1 {
@@ -83,7 +84,9 @@ ul li a:hover{
 }
 
 .heading h1 {
-    font-size: 3rem;
+    font-size: 4rem;
+    color: #fff;
+    font-weight: 10rem;
 }
 
 /* =====main content===== */
@@ -107,6 +110,7 @@ ul li a:hover{
     font-size: 1.6rem;
     color: gray;
 }
+
 .search_bar{
     margin-left: 1rem;
     width:100rem;
@@ -114,17 +118,21 @@ ul li a:hover{
     background-color: #f7f6f6;
     color: lightgray;
 }
+
 .filters{
     margin: 1rem 0rem 0rem 1rem;
 }
+
 .filter_list ul, .address{
    display: flex;
 }
+
 .filter_list ul li{
     padding: 0.3rem;
     list-style: none;
     font-size: 1.3rem;
 }
+
 .card_container{
     padding: 0;
     margin:0;
@@ -133,25 +141,31 @@ ul li a:hover{
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+
 .card{ 
     margin: 1.2rem 0rem 0rem 1.2rem;
     height:30rem;
     width: 25%;
     box-shadow: 5px 5px 10px #555;
 }
+
 .card_img{
     height: 70%;
     border-radius: 0.3rem;
 }
+
 .address i {
     padding: 0.3rem;
 }
+
 .address h4{
     font-size: 1.2rem;
 }
+
 .details{
     padding: 0.3rem;
 }
+
 .details h3{
     padding: 0.3rem;
     background-color: green;
@@ -160,10 +174,12 @@ ul li a:hover{
     border-radius: 0.5rem;
     font-size: 1.3rem;
 }
+
 .show_more{
     margin-top: 1.2rem;
     text-align: center;
 }
+
 .more_btn{
     padding: 0.3rem;
     font-size: 1.2rem;
