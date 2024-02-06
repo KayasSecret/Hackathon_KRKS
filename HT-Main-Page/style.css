@@ -127,14 +127,15 @@ ul li a:hover{
     padding: 0;
     margin:0;
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 .card{ 
     margin: 1.2rem 0rem 0rem 1.2rem;
     height:30rem;
     width: 25%;
-    box-shadow: 1px 1px 3px 1px;
+    box-shadow: 5px 5px 10px #555;
 }
 .card_img{
     height: 70%;
