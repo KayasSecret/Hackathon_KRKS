@@ -20,24 +20,27 @@ body {
 .nav{
     height: 4rem;
     display: flex;
-    background-color: rgb(202, 201, 201);
+    background-color: rgb(145, 123, 0);
     justify-content: space-evenly;
     align-items: center;
     padding-bottom: 1rem;
+    position: sticky;
+    top: 0px;
 }
 
 .head-f1 {
-    margin-left: 3rem;
+    color: white;
+    margin-right: 1rem;
     width:fit-content;
     text-align: center;
     border-radius: 0.5rem;
-    font-size: 2rem;
-    font-weight: 4rem;
+    font-size: 2.5rem;
+    font-weight: 60rem;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .head-f2 {
-    margin-top: 1rem;
+    margin-bottom: 0.2rem;
     width: 60%;
     font-size: 1.2rem;
     width: 65%;
@@ -47,18 +50,19 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    list-style: none;   
+    list-style: none; 
 }
 ul li a{
+    border-radius: 20%;
     text-decoration: none; 
     padding: 0.5rem;
-    color: black;
+    color: rgb(255, 251, 251);
     border-bottom: 3px solid transparent;
 }
 ul li a:hover{
-    border-bottom: 3px solid rgb(32, 99, 216);
+    box-shadow: 5px 5px 10px rgb(255, 255, 255);
 }
 
 /* =====header===== */
@@ -87,6 +91,11 @@ ul li a:hover{
     font-size: 4rem;
     color: #fff;
     font-weight: 10rem;
+}
+
+.description p {
+    color: #fff;
+    size: 2rem;
 }
 
 /* =====main content===== */
