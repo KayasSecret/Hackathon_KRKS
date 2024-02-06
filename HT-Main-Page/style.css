@@ -6,7 +6,7 @@
     border: none;
     outline: none;
     scroll-behavior: smooth;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Bitter' , 'Oxygen' , 'Roboto';
 }
 
 body {
@@ -36,7 +36,6 @@ body {
     border-radius: 0.5rem;
     font-size: 2.5rem;
     font-weight: 60rem;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .head-f2 {
