@@ -37,7 +37,6 @@
 .head-f2 ul{
     margin: 0;
     padding: 0;
-    /* width: 50rem ; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -59,10 +58,9 @@ ul li a:hover{
     border-radius: 0.5rem;
     color:rgb(32, 99, 216);
 }
-/* header */
+/* =====header===== */
 .header{
     height: 91vh;
-    /* width: 100vh; */
     display: flex;
     justify-content: flex-start;
     height: 90vh;
@@ -86,7 +84,7 @@ ul li a:hover{
     font-size: 3rem;
 }
 
-/* main content */
+/* =====main content===== */
 
 .main_heading{
     text-align: center;
@@ -171,7 +169,7 @@ ul li a:hover{
     color: rgb(32, 99, 216);
     border-radius: 0.5rem;
 }
-/* footer */
+/* =====footer===== */
 footer{
     margin-top: 2rem;
     height: 10rem;
