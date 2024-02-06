@@ -128,6 +128,14 @@ ul li a:hover{
     color: lightgray;
 }
 
+.search_btn{
+    border: 1px solid green;
+    color: green;
+    width: 5rem;
+    height:3rem ;
+    border-radius: 0.3rem;
+}
+
 .filters{
     margin: 1rem 0rem 0rem 1rem;
 }
@@ -229,7 +237,7 @@ input::placeholder {
     color: #666;
 }
 
-button {
+.contact_btn {
     width: 40%;
     border-radius: 10%;
     padding: 10px;
@@ -240,7 +248,7 @@ button {
     color: #fff;
 }
 
-button:hover {
+.contact_btn:hover {
     background: #005991;
 }
 
