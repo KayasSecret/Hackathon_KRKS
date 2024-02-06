@@ -52,12 +52,6 @@ ul li a:hover{
     border-bottom: 3px solid rgb(32, 99, 216);
 }
 
-.login_btn{
-    border: 2px solid rgb(32, 99, 216);
-    width: fit-content;
-    border-radius: 0.5rem;
-    color:rgb(32, 99, 216);
-}
 /* =====header===== */
 .header{
     height: 91vh;
