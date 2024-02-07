@@ -10,9 +10,9 @@
 }
 
 body {
-    background-image: url(/images/web_background.jpg);
+    background-image: url(/images/white_bkg.jpeg);
     height: 100vh;
-    background-position: center;
+    /* background-position: center; */
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -24,7 +24,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     padding-bottom: 1rem;
-    position: sticky;
+    /* position: sticky; */
     top: 0px;
 }
 
@@ -68,17 +68,25 @@ ul li a:hover{
 .header{
     height: 91vh;
     display: flex;
-    justify-content: center;
-    height: 90vh;
-    display: flex;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     align-items: center;
 }
 
 .tagline{
-    width: 35rem;
-    height:25rem;
+    width: 50rem;
+    height:40rem;
     padding: 1rem;
+    color: black;
+}
+
+/* .head_img{
+   height: 10rem;
+   width: 10rem;
+} */
+
+.home_pic{
+    height: 40rem;
+    width: 50rem;
 }
 
 .heading h1 {
@@ -98,14 +106,18 @@ ul li a:hover{
     text-align: center;
 }
 
+.search_control{
+    display: flex;
+    margin: 0rem 4rem 0rem 4rem;
+}
+
 .search_box{
     height: 3rem;
-    width: 75vw;
+    width: 90%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     padding: 1rem;
-    margin: auto;
     background-color:  #f7f6f6;
     border-radius: 1rem;
 }
@@ -120,6 +132,15 @@ ul li a:hover{
     font-size: 1.3rem;
     background-color: #f7f6f6;
     color: lightgray;
+}
+
+.search_btn{
+    background-color: rgb(50, 132, 50);
+    color: white;
+    font-size: medium;
+    width: 10%;
+    height:3rem ;
+    border-radius: 1rem;
 }
 
 .filters{
@@ -203,7 +224,7 @@ ul li a:hover{
     background-color: teal;
     margin-left: 3rem;
     }
-form {
+.contact {
     border-radius: 2%;
     padding: 25px;
     margin: 25px;
@@ -211,7 +232,7 @@ form {
     background: #cecdcd; 
 }
     
-input, textarea {
+.contact input, textarea {
     width: calc(100% - 18px);
     padding: 8px;
     margin-bottom: 20px;
@@ -223,7 +244,7 @@ input::placeholder {
     color: #666;
 }
 
-button {
+.contact_btn {
     width: 40%;
     border-radius: 10%;
     padding: 10px;
@@ -234,7 +255,7 @@ button {
     color: #fff;
 }
 
-button:hover {
+.contact_btn:hover {
     background: #005991;
 }
 

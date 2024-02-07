@@ -52,6 +52,10 @@
             </div>
             <div class="learn"><button type="button" class="btn btn-success">Learn More</button></div>
         </div>
+
+        <div class="head_img">
+            <img class="home_pic"  src="/images/my_home (1).png">
+        </div>
     </div>
     <br>
 
@@ -60,18 +64,14 @@
     <!--== Rent House Section ==-->
     <main>
         <h2 class="main_heading">Rent Houses</h2>
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        <form class="search_control">
+            <div class="search_box">
+                <i class="fa-solid fa-magnifying-glass search_icon"></i>
+                <input class="search_bar" type="search" placeholder="Search" aria-label="Search">
+            </div>
+            <button class="search_btn" type="submit">Search</button>
           </form>
           <br>
-        <select class="form-select form-select-lg mb-3" aria-label="Large select example">
-            <option selected>Select location</option>
-            <option value="1">Satna</option>
-            <option value="2">Maihar</option>
-            <option value="3">Katani</option>
-            <option value="4">Rewa</option>
-        </select>
         <div class="card_container">
             <div class="card">
                 <div class="card_img" style="background-image: url(/images/card.png);"></div>
@@ -138,8 +138,8 @@
     <br>
 
     <!--== Reviews Section ==-->
-    <!-- <div class="main-block">
-        <form action="/">
+    <div class="main-block">
+        <form class="contact" action="/">
           <h1>Please share your feadback</h1>
             <div class="info">
                 <label for="text">Name</label>
@@ -153,9 +153,9 @@
          
                 <textarea rows="4" placeholder="enter your feadback"></textarea>
             </div>
-            <button type="submit">Submit</button>
+            <button class="contact_btn"  type="submit">Submit</button>
         </form>
-      </div> -->
+      </div>
 
     <!--== Footer Section ==-->
     <footer></footer>
