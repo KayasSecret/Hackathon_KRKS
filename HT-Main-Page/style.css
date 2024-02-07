@@ -129,7 +129,7 @@ ul li a:hover{
 }
   
 .services-container .services-box{
-    flex: 1 1 30rem;
+    flex: 1 1 20rem;
     background: rgb(50, 132, 50);
     padding: 3rem 2rem 4rem;
     border-radius: 2rem;
@@ -245,7 +245,7 @@ ul li a:hover{
 
 /* .card_img:hover {
     transform: scale(1.5rem);
-} */
+}*/
 
 .card_img a{
     float: right;
