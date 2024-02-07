@@ -9,13 +9,6 @@
     font-family: 'Bitter' , 'Oxygen' , 'Roboto';
 }
 
-:root{
-    --bg-color: #1f242d;
-    --second-bg-color: #323946;
-    --text-color: #fff;
-    --main-color: #0ef;
-  }
-
 .nav{
     height: 8vh;
     width: 100%;
@@ -250,9 +243,9 @@ ul li a:hover{
     border-radius: 0.3rem;
 }
 
-.card_img:hover {
+/* .card_img:hover {
     transform: scale(1.5rem);
-}
+} */
 
 .card_img a{
     float: right;
