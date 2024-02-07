@@ -8,16 +8,6 @@
     scroll-behavior: smooth;
     font-family: 'Bitter' , 'Oxygen' , 'Roboto';
 }
-/* header{
-    background-image: linear-gradient(white, rgb(88, 88, 47));
-} */
-/* header {
-    background-image: url(/images/white_bkg.jpeg);
-    height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
 
 .nav{
     height: 8vh;
@@ -56,7 +46,7 @@
     list-style: none; 
 }
 ul li a{
-    border-radius: 20%;
+    border-radius: 1rem;
     text-decoration: none; 
     padding: 0.5rem;
     color: rgb(255, 251, 251);
@@ -150,20 +140,6 @@ ul li a:hover{
     border-radius: 0rem 1rem 1rem 0rem;
 }
 
-/* .filters{
-    margin: 1rem 0rem 0rem 1rem;
-} */
-
-.filter_list ul, .address{
-   display: flex;
-}
-
-/* .filter_list ul li{
-    padding: 0.3rem;
-    list-style: none;
-    font-size: 1.3rem;
-} */
-
 .card_container{
     padding: 0;
     margin:0;
@@ -184,16 +160,22 @@ ul li a:hover{
     border-radius: 0.3rem;
 }
 
-.address i {
-    padding: 0.3rem;
+.card_img a{
+    float: right;
+    padding: 0.2rem;
+    margin: 0.4rem;
+    text-decoration: none;
+    background:rgb(169, 159, 72);
+    border-radius: 0.3rem;
+    color:white;
 }
 
-.address h4{
-    font-size: 1.2rem;
-}
+.address{
+    display: flex;
+} 
 
-.details{
-    padding: 0.3rem;
+.address i , .details{
+    padding: 0.4rem;
 }
 
 .details h3{
@@ -224,33 +206,28 @@ ul li a:hover{
 
 /* ====review section===== */
 .main-block {
-    /* border-radius: 2%; */
     display: flex;
-    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    /* background-color: teal; */
-    background-image: linear-gradient(white, rgb(88, 88, 47));
-    /* margin-left: 3rem; */
-    }
+    background-image: linear-gradient(white, rgb(88, 88, 47))
+}
+
 .contact {
     height: 50%;
     width: 50%;
     border-radius: 2%;
     padding: 25px;
-    /* margin: 25px; */
-    box-shadow: 5px 5px 10px #555; 
-    /* background: #cecdcd;  */
+    box-shadow: 5px 5px 10px #555;
     background-color: white;
 }
     
-.contact input, textarea {
+.contact input {
     width: calc(100% - 18px);
     padding: 8px;
     margin-bottom: 20px;
-    /* border: 1px solid rgb(13, 170, 170); */
     border: 1px solid rgb(138, 138, 59);
+    border-radius: 0.3rem;
     outline: none;
 }
 
@@ -270,7 +247,7 @@ input::placeholder {
     color: #fff;
 }
 
-.contact_btn:hover, .more_btn:hover {
+.contact_btn:hover, .more_btn:hover, .card_img a:hover {
     /* background: #005991; */
     background: white;
     color:rgb(138, 138, 59) ;
