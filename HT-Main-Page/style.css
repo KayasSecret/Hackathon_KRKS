@@ -8,34 +8,38 @@
     scroll-behavior: smooth;
     font-family: 'Bitter' , 'Oxygen' , 'Roboto';
 }
-
-header {
+/* header{
+    background-image: linear-gradient(white, rgb(88, 88, 47));
+} */
+/* header {
     background-image: url(/images/white_bkg.jpeg);
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 
 .nav{
-    height: 4rem;
+    height: 8vh;
+    width: 100%;
     display: flex;
-    background-color: rgb(145, 123, 0);
+    /* background-color: rgb(151, 131, 16); */
+    background-color:  rgb(116, 116, 50);
     justify-content: space-evenly;
     align-items: center;
     padding-bottom: 1rem;
-    position: sticky;
+    position: fixed;
     top: 0px;
+    z-index:9999 ;
 }
 
 .head-f1 {
     color: white;
     margin-right: 1rem;
     width:fit-content;
-    text-align: center;
-    border-radius: 0.5rem;
     font-size: 2.5rem;
     font-weight: 60rem;
+    font-style: italic;
 }
 
 .head-f2 {
@@ -64,7 +68,8 @@ ul li a:hover{
 
 /* =====header===== */
 .head_cont{
-    height: 91vh;
+    height: 97vh;
+    background-image: linear-gradient(white, rgb(88, 88, 47));
     width: auto;
     display: flex;
     /* flex-wrap: wrap; */
@@ -98,14 +103,19 @@ ul li a:hover{
 }
 
 /* =====main content===== */
+#Rent_House{
+    background-image: linear-gradient(white, rgb(88, 88, 47));
+    padding-bottom: 1.2rem;
+}
 
 .main_heading{
     text-align: center;
+    padding-bottom: 1rem;
 }
 
 .search_control{
     display: flex;
-    margin: 0rem 4rem 0rem 4rem;
+    margin: 0rem 5rem 0rem 5rem;
 }
 
 .search_box{
@@ -140,19 +150,19 @@ ul li a:hover{
     border-radius: 0rem 1rem 1rem 0rem;
 }
 
-.filters{
+/* .filters{
     margin: 1rem 0rem 0rem 1rem;
-}
+} */
 
 .filter_list ul, .address{
    display: flex;
 }
 
-.filter_list ul li{
+/* .filter_list ul li{
     padding: 0.3rem;
     list-style: none;
     font-size: 1.3rem;
-}
+} */
 
 .card_container{
     padding: 0;
@@ -160,7 +170,6 @@ ul li a:hover{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    flex-wrap: wrap;
 }
 
 .card{ 
@@ -197,43 +206,51 @@ ul li a:hover{
 }
 
 .show_more{
-    margin-top: 1.2rem;
+    margin-top:1.2rem;
     text-align: center;
 }
 
 .more_btn{
-    padding: 0.3rem;
-    font-size: 1.2rem;
-    background-color: white;
-    border: 2px solid rgb(32, 99, 216);
-    color: rgb(32, 99, 216);
-    border-radius: 0.5rem;
+    width: 15%;
+    border-radius:1rem;
+    padding: 0.5rem;
+    border: none;
+    /* background: rgb(4, 187, 187);  */
+    background:  rgb(138, 138, 59); 
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #fff;
 }
 
 /* ====review section===== */
 .main-block {
-    border-radius: 2%;
+    /* border-radius: 2%; */
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: teal;
-    margin-left: 3rem;
+    /* background-color: teal; */
+    background-image: linear-gradient(white, rgb(88, 88, 47));
+    /* margin-left: 3rem; */
     }
 .contact {
+    height: 50%;
+    width: 50%;
     border-radius: 2%;
     padding: 25px;
-    margin: 25px;
+    /* margin: 25px; */
     box-shadow: 5px 5px 10px #555; 
-    background: #cecdcd; 
+    /* background: #cecdcd;  */
+    background-color: white;
 }
     
 .contact input, textarea {
     width: calc(100% - 18px);
     padding: 8px;
     margin-bottom: 20px;
-    border: 1px solid rgb(13, 170, 170);
+    /* border: 1px solid rgb(13, 170, 170); */
+    border: 1px solid rgb(138, 138, 59);
     outline: none;
 }
 
@@ -241,25 +258,28 @@ input::placeholder {
     color: #666;
 }
 
-.contact_btn {
-    width: 40%;
-    border-radius: 10%;
-    padding: 10px;
+.contact_btn  {
+    width: 35%;
+    border-radius:1rem;
+    padding: 0.5rem;
     border: none;
-    background: rgb(4, 187, 187); 
-    font-size: 16px;
+    /* background: rgb(4, 187, 187);  */
+    background:  rgb(138, 138, 59); 
+    font-size: 1.3rem;
     font-weight: 400;
     color: #fff;
 }
 
-.contact_btn:hover {
-    background: #005991;
+.contact_btn:hover, .more_btn:hover {
+    /* background: #005991; */
+    background: white;
+    color:rgb(138, 138, 59) ;
+    border: 1.5px solid rgb(138, 138, 59) ;
 }
 
 /* =====footer===== */
 footer{
     margin-top: 2rem;
-    margin-left: 3rem;
     height: 10rem;
     background-color: rgb(54, 51, 51);
     color: white;

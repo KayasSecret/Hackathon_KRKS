@@ -25,7 +25,7 @@
 </head>
 <body>
    <!--== Navigation Section ==-->
-   <header> 
+   <header id="Home"> 
         <nav class="nav" data-spy="affix">
             <div class="head-f1">
                 Rental Rover
@@ -34,7 +34,7 @@
                 <ul class="nav_btn">
                     <li><a href="#Home">Home</a></li>
                     <li><a href="#About">About</a></li>
-                    <li><a href="#Rent-House">RentHouse</a></li>
+                    <li><a href="#Rent_House">RentHouse</a></li>
                     <li><a href="#Reviews">Reviews</a></li>
                     <li><a class="btn btn-primary" href="/Login-Page/index.html">Log in/Sign Up</a></li>
                 </ul>
@@ -53,17 +53,15 @@
                 </div>
                 <div class="learn"><button type="button" class="btn btn-success">Learn More</button></div>
             </div>
-            <div class="home-img">
-                
-            </div>
+            <div class="home-img"></div>
         </div>
     </header>
     
 
     <!--== About Section ==-->  
-    <br>
     <!--== Rent House Section ==-->
-    <main>
+    <main id="Rent_House">
+        <br><br><br>
         <h2 class="main_heading ">Rent Houses</h2>
         <form class="search_control">
             <div class="search_box">
@@ -82,7 +80,7 @@
         </select> -->
         <div class="card_container">
             <div class="card">
-                <div class="card_img" style="background-image: url(/images/card.png);"></div>
+                <div class="card_img" style="background-image: url(/houseimg/h1img.jpeg); background-size: cover; background-repeat: no-repeat; background-position: center;"></div>
                 <div class="details">
                     <div class="address">
                         <i class="fa-solid fa-location-dot"></i><h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h4>
@@ -92,7 +90,7 @@
                 </div>   
             </div>
             <div class="card">
-                <div class="card_img" style="background-image: url(/images/card.png);"></div>
+                <div class="card_img" style="background-image: url(/houseimg/h2img.jpeg); background-size: cover; background-repeat: no-repeat; background-position: center;"></div>
                 <div class="details">
                     <div class="address">
                         <i class="fa-solid fa-location-dot"></i><h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h4>
@@ -102,7 +100,7 @@
                 </div>   
             </div>
             <div class="card">
-                <div class="card_img" style="background-image: url(/images/card.png);"></div>
+                <div class="card_img" style="background-image: url(/houseimg/h3img.jpeg); background-size: cover; background-repeat: no-repeat; background-position: center;"></div>
                 <div class="details">
                     <div class="address">
                         <i class="fa-solid fa-location-dot"></i><h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h4>
@@ -112,7 +110,7 @@
                 </div>   
             </div>
             <div class="card">
-                <div class="card_img" style="background-image: url(/images/card.png);"></div>
+                <div class="card_img" style="background-image: url(/houseimg/h3img.jpeg); background-size: cover; background-repeat: no-repeat; background-position: center;"></div>
                 <div class="details">
                     <div class="address">
                         <i class="fa-solid fa-location-dot"></i><h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h4>
@@ -122,7 +120,7 @@
                 </div>   
             </div>
             <div class="card">
-                <div class="card_img" style="background-image: url(/images/card.png);"></div>
+                <div class="card_img" style="background-image: url(/houseimg/h3img.jpeg); background-size: cover; background-repeat: no-repeat; background-position: center;"></div>
                 <div class="details">
                     <div class="address">
                         <i class="fa-solid fa-location-dot"></i><h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h4>
@@ -132,7 +130,7 @@
                 </div>   
             </div>
             <div class="card">
-                <div class="card_img" style="background-image: url(/images/card.png);"></div>
+                <div class="card_img" style="background-image: url(/houseimg/h3img.jpeg); background-size: cover; background-repeat: no-repeat; background-position: center;"></div>
                 <div class="details">
                     <div class="address">
                         <i class="fa-solid fa-location-dot"></i><h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h4>
@@ -141,14 +139,17 @@
                     <h3>Available</h3>
                 </div>   
             </div>
-        </div> 
+        </div>
+        <div class="show_more"> 
+            <button class="more_btn">Show More</button>
+        </div>
     </main>
     <br>
 
     <!--== Reviews Section ==-->
     <div class="main-block">
         <form class="contact" action="/">
-          <h1>Please share your feadback</h1>
+          <h1>Contact with Owner </h1>
             <div class="info">
                 <label for="text">Name</label>
                 <input class="fname" type="text" name="name" placeholder="Full name">
