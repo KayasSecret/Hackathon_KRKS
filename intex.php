@@ -21,8 +21,7 @@
     
     $sql = "CREATE TABLE MyGuests (
                                     id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-                                    firstname VARCHAR(30) NOT NULL,
-                                    lastname VARCHAR(30) NOT NULL,
+                                    username VARCHAR(30) NOT NULL,
                                     email VARCHAR(50),
                                     reg_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
     )";
@@ -35,16 +34,16 @@
         echo "Error creating table: " . $conn->error;
     }
     
-    $name = $_POST["name"];
+    $username = $_POST["username"];
     $email = $_POST["email"];
     $stmt->execute();
     
-    if (empty($_POST["name"])) {
+    if (empty($_POST["username"])) {
         $nameErr = "Name is required";
     } else {
-        $name = test_input($_POST["name"]);
+        $name = test_input($_POST["username"]);
         // check if name only contains letters and whitespace
-        if (!preg_match("/^[a-zA-Z-' ]*$/",$name)) {
+        if (!preg_match("/^[a-zA-Z-' ]*$/",$username)) {
         $nameErr = "Only letters and white space allowed";
         }
     }
@@ -60,8 +59,8 @@
     
 
     
-    $stmt = $conn->prepare("INSERT INTO MyGuests (firstname, lastname, email) VALUES (?, ?)");
-    $stmt->bind_param("ss", $name, $email);
+    $stmt = $conn->prepare("INSERT INTO MyGuests (username, email) VALUES (?, ?)");
+    $stmt->bind_param("ss", $username, $email);
     
     
     if ($conn->query($sql) === TRUE) {
