@@ -96,7 +96,8 @@ ul li a:hover{
 }
 
 .description p {
-    size: 2rem;
+    color: #fff;
+    font-size: 2rem;
 }
 
 /* =====main content===== */
