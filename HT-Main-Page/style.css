@@ -9,6 +9,13 @@
     font-family: 'Bitter' , 'Oxygen' , 'Roboto';
 }
 
+:root{
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #fff;
+    --main-color: #0ef;
+  }
+
 .nav{
     height: 8vh;
     width: 100%;
@@ -102,6 +109,79 @@ ul li a:hover{
     font-size: 1.3rem;
 }
 
+/* =====Services Section===== */
+
+.services {
+    min-height: 100vh;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.services h1{
+    margin-bottom: 2rem;
+    margin-left: 42%;
+    margin-top: 1rem;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-left: 1.8rem;
+    margin-right: 1.8rem;
+}
+  
+.services-container .services-box{
+    flex: 1 1 30rem;
+    background: rgb(50, 132, 50);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: 0.2rem solid black;
+    transition: 0.5s ease;
+}
+  
+.services-container .services-box:hover{
+    border-color: rgb(241, 167, 6);
+    transform: scale(1.03);
+}
+  
+.services-box i{
+    font-size: 3rem;
+    color: rgb(194, 194, 0);
+}
+  
+.services-box h3{
+    font-size: 2.6rem;
+    color: white;
+}
+  
+.services-box p{
+    font-size: 1.3rem;
+    margin: 1rem 0 3rem;
+    color: #f7f6f6;
+}
+
+.btn_k{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: rgb(30, 109, 255);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem white;
+    font-size: 1.6rem;
+    color: white;
+    letter-spacing: .1rem;
+    font-weight: 500;
+}
+  
+.btn_k:hover{
+    box-shadow: none;
+}
+  
 /* =====main content===== */
 #Rent_House{
     background-image: linear-gradient(white, rgb(88, 88, 47));
@@ -168,6 +248,10 @@ ul li a:hover{
 .card_img{
     height: 70%;
     border-radius: 0.3rem;
+}
+
+.card_img:hover {
+    transform: scale(1.5rem);
 }
 
 .card_img a{
