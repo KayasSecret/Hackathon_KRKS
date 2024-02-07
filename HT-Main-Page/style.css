@@ -81,6 +81,19 @@ ul li a:hover{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    animation: floatImage 3s ease-in-out infinite;
+}
+
+@keyframes floatImage {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-2.0rem);
+    }
+    100% {
+      transform: translateY(0);
+    }
 }
 
 .heading h1{
