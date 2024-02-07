@@ -24,7 +24,7 @@ header {
     justify-content: space-evenly;
     align-items: center;
     padding-bottom: 1rem;
-    /* position: sticky; */
+    position: sticky;
     top: 0px;
 }
 
@@ -118,7 +118,8 @@ ul li a:hover{
     align-items: center;
     padding: 1rem;
     background-color:  #f7f6f6;
-    border-radius: 1rem;
+    border: #005991;
+    border-radius: 1rem 0rem 0rem 1rem;
 }
 .search_icon{
     font-size: 1.6rem;
@@ -139,7 +140,7 @@ ul li a:hover{
     font-size: medium;
     width: 10%;
     height:3rem ;
-    border-radius: 1rem;
+    border-radius: 0rem 1rem 1rem 0rem;
 }
 
 .filters{
