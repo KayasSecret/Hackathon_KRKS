@@ -89,10 +89,7 @@ ul li a:hover{
       transform: translateY(0);
     }
     50% {
-      transform: translateY(-2.0rem);
-    }
-    100% {
-      transform: translateY(0);
+        transform: translateX(2.5rem);
     }
 }
 
