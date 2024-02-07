@@ -9,10 +9,10 @@
     font-family: 'Bitter' , 'Oxygen' , 'Roboto';
 }
 
-body {
+header {
     background-image: url(/images/white_bkg.jpeg);
     height: 100vh;
-    /* background-position: center; */
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -65,34 +65,34 @@ ul li a:hover{
 }
 
 /* =====header===== */
-.header{
+.head_cont{
     height: 91vh;
+    width: auto;
     display: flex;
-    /* justify-content: space-evenly; */
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
     align-items: center;
 }
 
 .tagline{
-    width: 50rem;
-    height:40rem;
+    width:40vw;
+    height:auto;
     padding: 1rem;
     color: black;
 }
 
-/* .head_img{
-   height: 10rem;
-   width: 10rem;
-} */
-
-.home_pic{
-    height: 40rem;
-    width: 50rem;
+.head_img{
+    height: 30rem;
+    width:40rem;
+    background-image: url(/images/myHome.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-.heading h1 {
-    font-size: 5rem;
-    color: #fff;
-    font-weight: 10rem;
+.heading h1{
+    font-size: 4rem;
+    font-weight: 5rem;
 }
 
 .description p {
