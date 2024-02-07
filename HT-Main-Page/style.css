@@ -40,10 +40,8 @@ header {
 
 .head-f2 {
     margin-bottom: 0.2rem;
-    width: 60%;
-    font-size: 1.2rem;
     width: 65%;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
 .head-f2 ul{
     margin: 0;
@@ -81,7 +79,7 @@ ul li a:hover{
     color: black;
 }
 
-.head_img{
+.home-img{
     height: 30rem;
     width:40rem;
     background-image: url(/images/myHome.png);
@@ -91,13 +89,12 @@ ul li a:hover{
 }
 
 .heading h1{
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 5rem;
 }
 
 .description p {
-    color: #fff;
-    font-size: 2rem;
+    font-size: 1.3rem;
 }
 
 /* =====main content===== */
@@ -119,7 +116,7 @@ ul li a:hover{
     align-items: center;
     padding: 1rem;
     background-color:  #f7f6f6;
-    border: #005991;
+    border:1px solid green;
     border-radius: 1rem 0rem 0rem 1rem;
 }
 .search_icon{
@@ -132,7 +129,6 @@ ul li a:hover{
     width:100rem;
     font-size: 1.3rem;
     background-color: #f7f6f6;
-    color: lightgray;
 }
 
 .search_btn{
