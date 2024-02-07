@@ -290,50 +290,7 @@ ul li a:hover{
     color: #fff;
 }
 
-/* ====review section===== */
-.main-block {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-image: linear-gradient(white, rgb(88, 88, 47))
-}
-
-.contact {
-    height: 50%;
-    width: 50%;
-    border-radius: 2%;
-    padding: 25px;
-    box-shadow: 5px 5px 10px #555;
-    background-color: white;
-}
-    
-.contact input {
-    width: calc(100% - 18px);
-    padding: 8px;
-    margin-bottom: 20px;
-    border: 1px solid rgb(138, 138, 59);
-    border-radius: 0.3rem;
-    outline: none;
-}
-
-input::placeholder {
-    color: #666;
-}
-
-.contact_btn  {
-    width: 35%;
-    border-radius:1rem;
-    padding: 0.5rem;
-    border: none;
-    /* background: rgb(4, 187, 187);  */
-    background:  rgb(138, 138, 59); 
-    font-size: 1.3rem;
-    font-weight: 400;
-    color: #fff;
-}
-
-.contact_btn:hover, .more_btn:hover, .card_img a:hover {
+.contact_btn:hover, .more_btn:hover{
     /* background: #005991; */
     background: white;
     color:rgb(138, 138, 59) ;

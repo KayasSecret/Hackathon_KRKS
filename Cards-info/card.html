@@ -9,6 +9,7 @@
 
     <!--Normal CSS file-->
     <link rel="stylesheet" href="/HT-Main-Page/style.css">
+    <link rel="stylesheet" href="/Cards-info/card.css">
     
     <!--Logo-->
     <link rel="shortcut icon" href="/images/logo.png" type="image/x-icon">
@@ -22,49 +23,85 @@
 
 </head>
 <body>
-    <h2>House Info</h2>
-    <div class="more_img">
-            <img src="/houseimg/h1img.jpeg">
-            <img src="/houseimg/h2img.jpeg">
-            <img src="/houseimg/h3img.jpeg">
-    </div>
-    <div class="more_info">
-        <p>Price: 2000rs / month</p>
-        <p>Rooms : 2</p> 
-        <p>Floor : Ground</p>
-        <p>Registered on : February 2024</p>
-    </div>
-
-
-    <!-- Contact Owner -->
-    <div class="main-block">
-        <form class="contact" action="/">
-          <h1>Contact Owner </h1>
-            <div class="info">
-                <label for="text">Name</label>
-                <input class="fname" type="text" name="name" placeholder="Full name">
-
-                <label for="Email">Email</label>
-                <input type="text" name="name" placeholder="Email">
-
-                <label for="number">Phone Number</label>
-                <input type="text" name="name" placeholder="Phone number">
-
-                <label for="use">Required for</label>
-                    <input type="checkbox" name="name">
-                    <label for="Individual">Individual</label>
-
-                    <input type="checkbox" name="name">
-                    <label for="Family">Family</label>
-                    <input type="text" placeholder="No. of Members">
+    <!--== Navigation Section ==-->
+   <header id="Home"> 
+        <nav class="nav" data-spy="affix">
+            <div class="head-f1">
+                Rental Rover
             </div>
-            <button class="contact_btn"  type="submit">Submit</button>
-        </form>
-      </div>
+            <div class="head-f2">
+                <ul class="nav_btn">
+                    <li><a href="/HT-Main-Page/index.html">Home</a></li>
+                    <li><a href="/HT-Main-Page/index.html">Services</a></li>
+                    <li><a href="/HT-Main-Page/index.html">RentHouse</a></li>
+                    <!-- <li><a href="/HT-Main-Page/index.html">Reviews</a></li> -->
+                    <li><a class="btn btn-primary" href="/Login-Page/index.html">Log in/Sign Up</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <br>
 
-      <!-- Review Section -->
+    <!-- house info -->
 
-      <h4>Write your Reviews</h4>
-      <textarea rows="3" placeholder="Write here"></textarea>
+    <h2>House Info</h2>
+    <section class="card_info">
+        <div class="more_img">
+                <img src="/House-image/h1img.jpeg">
+                <img src="/House-image/h2img.jpeg">
+                <img src="/House-image/h3img.jpeg">
+        </div>
+        <div class="more_info">
+            <p>Price: 2000rs / month</p>
+            <p>Rooms : 2</p> 
+            <p>Floor : Ground</p>
+            <p>Registered on : February 2024</p>
+        </div>
+
+        <!-- Contact Owner -->
+        <div class="main-block">
+            <form class="contact" action="/">
+            <h1>Contact Owner </h1>
+                <div class="info">
+                    <label for="text">Name</label>
+                    <input class="fname" type="text" name="name" placeholder="Full name">
+
+                    <label for="Email">Email</label>
+                    <input type="text" name="name" placeholder="Email">
+
+                    <label for="number">Phone Number</label>
+                    <input type="text" name="name" placeholder="Phone number">
+
+                    <label for="use">Required for</label>
+                        <input type="checkbox" name="name">
+                        <label for="Individual">Individual</label>
+
+                        <input type="checkbox" name="name">
+                        <label for="Family">Family</label>
+                        <input type="text" placeholder="No. of Members">
+                </div>
+                <button class="contact_btn"  type="submit">Submit</button>
+            </form>
+        </div>
+
+        <!-- Review Section -->
+        <aside class="review">
+            <h4>Customer Reviews</h4>
+            <ul>
+                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
+            </ul>
+            <form action="/">
+                <label for="review">Add Your Review</label>
+                <textarea rows="3" placeholder="Write here"></textarea>
+                <button class="rev_btn">Add</button>
+            </form>
+        </aside>
+    </section>
+
+    
 </body>
 </html>

@@ -1,0 +1,77 @@
+.card_info{
+    height:fit-content;
+    display: grid;
+    grid-template-areas: 
+                        'im im rv rv rv rv'
+                        'if if rv rv rv rv'
+                        'cd cd rv rv rv rv';
+}
+
+.more_img{
+    grid-area: im;
+   
+}
+
+.more_info{
+    grid-area: if;
+  
+}
+
+.main-block{
+    grid-area: cd;
+}
+
+.review{
+    grid-area: rv;
+    background-color: teal;
+    padding: 1rem;
+    color: white;
+}
+
+/* .main-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(white, rgb(88, 88, 47))
+} */
+
+.contact {
+    width: 70%;
+    margin: 1rem;
+    border-radius: 2%;
+    padding: 1.5rem;
+    box-shadow: 5px 5px 10px #555;
+    background-color: white;
+}
+    
+.contact input, textarea {
+    width: calc(100% - 18px);
+    padding: 0.4rem;
+    margin-bottom: 1rem;
+    border: 1px solid rgb(138, 138, 59);
+    border-radius: 0.3rem;
+    outline: none;
+}
+
+input::placeholder {
+    color: #666;
+}
+
+.contact_btn , .rev_btn {
+    width: 35%;
+    border-radius:1rem;
+    padding: 0.5rem;
+    border:1px solid transparent;
+    /* background: rgb(4, 187, 187);  */
+    background:  rgb(138, 138, 59); 
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+.card_img a:hover {
+    /* background: #005991; */
+    background: white;
+    color:rgb(138, 138, 59) ;
+    border: 1px solid rgb(138, 138, 59) ;
+}
