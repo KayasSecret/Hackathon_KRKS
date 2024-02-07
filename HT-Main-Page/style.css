@@ -106,16 +106,12 @@ ul li a:hover{
 
 .services {
     min-height: 100vh;
-    padding-bottom: 5rem;
-    padding-top: 5rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding: 5rem;
 }
 
 .services h1{
+    text-align: center;
     margin-bottom: 2rem;
-    margin-left: 42%;
-    margin-top: 1rem;
 }
 
 .services-container {
@@ -129,12 +125,13 @@ ul li a:hover{
 }
   
 .services-container .services-box{
-    flex: 1 1 30rem;
-    background: rgb(50, 132, 50);
-    padding: 3rem 2rem 4rem;
-    border-radius: 2rem;
+    height: 80%;
+    flex: 1 1 20rem;
+    background:teal;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
     text-align: center;
-    border: 0.2rem solid black;
+    border: 0.1rem solid black;
     transition: 0.5s ease;
 }
   
@@ -144,39 +141,41 @@ ul li a:hover{
 }
   
 .services-box i{
+    text-align: center;
     font-size: 3rem;
     color: rgb(194, 194, 0);
 }
   
 .services-box h3{
-    font-size: 2.6rem;
-    color: white;
+    font-size: 2.3rem;
+    color: wh;
 }
   
 .services-box p{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     margin: 1rem 0 3rem;
     color: #f7f6f6;
 }
 
 .btn_k{
     display: inline-block;
-    padding: 1rem 2.8rem;
-    background: rgb(30, 109, 255);
-    border-radius: 4rem;
-    box-shadow: 0 0 1rem white;
+    padding: 1rem;
+    background: beige;
+    border-radius: 3rem;
     font-size: 1.6rem;
-    color: white;
-    letter-spacing: .1rem;
+    color: black;
+    letter-spacing:0.1rem;
     font-weight: 500;
+    text-decoration: none;
 }
   
 .btn_k:hover{
-    box-shadow: none;
+    /* box-shadow: none; */
+    box-shadow: 0 0 0.5rem white;
 }
   
 /* =====main content===== */
-#Rent_House{
+#Rent_House, #services{
     background-image: linear-gradient(white, rgb(88, 88, 47));
     padding-bottom: 1.2rem;
 }
