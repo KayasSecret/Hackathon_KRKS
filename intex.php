@@ -12,14 +12,14 @@
     }
     echo "Success fully connected to database";
     
-    $sql = "CREATE DATABASE myDB";
+    $sql = "CREATE DATABASE IF NOT EXISTS myDB";
     if ($conn->query($sql) === TRUE) {
         echo "Database created successfully";
     } else {
         echo "Error creating database: " . $conn->error;
     }
     
-    $sql = "CREATE TABLE MyGuests (
+    $sql = "CREATE TABLE IF NOT EXISTS MyGuests (
                                     id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
                                     username VARCHAR(30) NOT NULL,
                                     email VARCHAR(50),
