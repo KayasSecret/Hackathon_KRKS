@@ -2,23 +2,39 @@
     height:fit-content;
     display: grid;
     grid-template-areas: 
-                        'im im rv rv rv rv'
-                        'if if rv rv rv rv'
-                        'cd cd rv rv rv rv';
+                        'im im rv rv rv'
+                        'if if rv rv rv'
+                        'cd cd rv rv rv';
 }
 
 .more_img{
     grid-area: im;
-   
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .more_info{
-    grid-area: if;
-  
+    grid-area: if;   
+    margin: 1rem 15% 1rem 15%;
+    display: flex;
+    flex-direction: column;
 }
 
 .main-block{
     grid-area: cd;
+}
+
+.more_info p{
+    font-size: 1.4rem;
+}
+
+.m_img{
+    margin: 1rem 1rem 0rem 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100px;
+    height:100px;
 }
 
 .review{
@@ -28,24 +44,21 @@
     color: white;
 }
 
-
-/* .main-block {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: linear-gradient(white, rgb(88, 88, 47))
-} */
+/* Owner Card */
+#checkbox{
+    width: fit-content;
+}
 
 .contact {
     width: 70%;
-    margin: 1rem;
+    margin:0rem 15% 0rem 15%;
     border-radius: 2%;
     padding: 1.5rem;
     box-shadow: 5px 5px 10px #555;
     background-color: white;
 }
     
-.contact input, textarea {
+.contact input{
     width: calc(100% - 18px);
     padding: 0.4rem;
     margin-bottom: 1rem;
@@ -58,7 +71,7 @@ input::placeholder {
     color: #666;
 }
 
-.contact_btn , .rev_btn {
+.contact_btn{
     width: 35%;
     border-radius:1rem;
     padding: 0.5rem;
@@ -71,8 +84,25 @@ input::placeholder {
 }
 
 .card_img a:hover {
-    /* background: #005991; */
     background: white;
     color:rgb(138, 138, 59) ;
     border: 1px solid rgb(138, 138, 59) ;
+}
+
+/* review part */
+
+.review h4 , .review label {
+    color: rgb(19, 19, 12);
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.review ul{
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+.rev_btn, .review textarea{
+    padding: 0.2rem;
+    border-radius: 0.2rem;
 }

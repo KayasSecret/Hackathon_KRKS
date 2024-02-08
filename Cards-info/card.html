@@ -47,17 +47,19 @@
     <h2>House Info</h2>
     <!-- slider code strt -->
     <section class="card_info" >
-        <div>
-            <img src="/images/House-image/h1img.jpeg">
-            <img src="/images/House-image/h2img.jpeg">
-            <img src="/images/House-image/h3img.jpeg">
-        </div>    
-        <div class="more_info">
-            <p>Price: 2000rs / month</p>
-            <p>Rooms : 2</p> 
-            <p>Floor : Ground</p>
-            <p>Registered on : February 2024</p>
-        </div>
+        <div class="more_img">
+            <div  class="m_img" style="background-image: url(/images/House-image/k1.jpg);"></div>
+            <div class="m_img" style="background-image: url(/images/House-image/k2.jpg);"></div>
+            <div class="m_img" style="background-image: url(/images/House-image/k1.jpg);"></div>
+            <div class="m_img" style="background-image: url(/images/House-image/k3.jpg);"></div>
+        </div>     
+            <div class="more_info">
+                <p> <i class="fa-solid fa-money-bill"></i> Price: 2000rs / month</p>
+                <p> <i class="fa-regular fa-square"></i> Rooms : 2</p> 
+                <p> <i class="fa-solid fa-stairs"></i> Floor : Ground</p>
+
+                <p> <i class="fa-solid fa-tag"></i> Registered on : February 2024</p>
+            </div>
 
         <!-- Contact Owner -->
         <div class="main-block">
@@ -73,14 +75,16 @@
                     <label for="number">Phone Number</label>
                     <input type="text" name="name" placeholder="Phone number">
 
-                    <label for="use">Required for</label>
-                    <input type="checkbox" name="name">
+                    
+                    <label for="use">Required for</label><br>
+                    
+                    <input type="checkbox" name="name" id="checkbox">
+                    <label for="Individual">Individual</label><br>
 
-                    <input type="checkbox" name="name">
-                    <label for="Individual">Individual</label>
-
+                    <input type="checkbox" name="name" id="checkbox">
                     <label for="Family">Family</label>
-                    <input type="text" placeholder="No. of Members">
+                    <input type="text" placeholder="No. of Members" id="checkbox" >
+                    
                 </div>
                 <button class="contact_btn"  type="submit">Submit</button>
             </form>
@@ -89,7 +93,7 @@
         <!-- Review Section -->
         <aside class="review">
             <h4>Customer Reviews</h4>
-            <ul>
+            <ul class="rev_list">
                 <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
                 <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
                 <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
@@ -97,12 +101,17 @@
                 <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
             </ul>
             <form action="/">
-                <label for="review">Add Your Review</label>
-                <textarea rows="3" placeholder="Write here"></textarea>
+                <label for="review" class="rev-in-hd">Add Your Review</label><br>
+                <textarea rows="3" placeholder="Write your review here"></textarea>
                 <button class="rev_btn">Add</button>
             </form>
         </aside>
     </section>
+
+
+    <footer>
+
+    </footer>
 
 </body>
 </html>
