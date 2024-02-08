@@ -301,7 +301,7 @@ ul li a:hover{
 .wrapper {
 	display: flex;
 	justify-content: space-between;
-	width: 90%;
+	width: 100%;
 }
 .card-s {
 	width: 280px;
