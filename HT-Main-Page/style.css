@@ -297,62 +297,87 @@ ul li a:hover{
     border: 1.5px solid rgb(138, 138, 59) ;
 }
 
-/* === Practice Kayas (in cards) ===*/
-.img-box_k {
-    display: block;
-    width: 100%;
-    height: 14rem;
-    object-fit: cover;
+/* === Practice sneha (in cards) ===*/
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+}
+.card-s {
+	width: 280px;
+	height: 360px;
+	background: #fff;
+	display: flex;
+	align-items: flex-end;
+	padding: 2rem 1rem;
+	position: relative;
+	transition: 0.5s all ease-in-out;
+}
+.card-s:hover {
+	/* transform: translateY(-10px); */
+	transform: scale(1.06);
+}
+.card-s::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to bottom, rgba(13, 36, 63, 0.3), rgba(13, 36, 63, 1));
+	z-index: 2;
+	opacity: 0;
+	transition: 0.5s all;
+}
+.card-s:hover::before {
+	opacity: 1;
 }
 
-.grid_k {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    justify-content: center;
-    grid-gap: 2rem;
-    text-align: center;
-    width: 90%;
-    margin: auto;
+.card-s img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.card-s .info {
+	position: relative;
+	color: #fff;
+	z-index: 3;
+	opacity: 0;
+	transform: translateY(2rem);
+	transition: 0.5s all;
+}
+.card-s:hover .info {
+	opacity: 1;
+	transform: translateY(0);
 }
 
-.card_k {
-    display: block;
-    overflow: hidden;
-    border-radius: 0.6rem;
-    box-shadow: 0rem 0.5rem 1rem rgba(0, 0, 0, 0.7);
-    cursor: pointer;
-    transition: 0.2s;
-    position: relative;
+.card-s .info h1 {
+	line-height: 40px;
+	margin-bottom: 10px;
 }
-
-.card-content {
-    position: absolute;
-    background-color: rgba(0 0 0/50%);
-    bottom: 0rem;
-    color: #fff;
-    width: 100%;
-    height: 100%;
-    padding: 2.2rem 0rem;
-    overflow: hidden;
-    transition: 0.7s;
+.card-s .info p {
+	font-size: 15px;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
 }
-
-.card-content h1 {
-    font-size: 2rem;
-    font-weight: 600;
-    text-transform: inherit;
+.card-s .info .btn {
+	background: #fff;
+	padding: 0.5rem 1rem;
+	color: #000;
+	font-size: 12px;
+	cursor: pointer;
+	border-radius: 20px;
+	text-decoration: none;
+	font-weight: bold;
+	transition: 0.1s linear;
 }
-
-.card-content p {
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5rem;
-    padding: 1.2rem;
-}
-
-.card-content:hover {
-    height: 10%;
-    transition: 0.7s;
+.card-s .info .btn:hover {
+	background: #fc5185;
+	color: #fff;
+	box-shadow: 0 7px 10px rgba(0, 0, 0, 0.5);
 }
 
 /* =====footer===== */
