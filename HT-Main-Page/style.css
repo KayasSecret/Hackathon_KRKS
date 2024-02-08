@@ -298,24 +298,39 @@ ul li a:hover{
 }
 
 /* === Practice sneha (in cards) ===*/
+
+.frod {
+    display: flex;
+    justify-content: center;
+    border-radius: 5rem;
+}
+
 .wrapper {
 	display: flex;
 	justify-content: space-between;
 	width: 100%;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
 }
 .card-s {
-	width: 280px;
-	height: 360px;
+	width: 24rem;
+	height: 29.5rem;
+    margin-bottom: 2rem;
 	background: #fff;
 	display: flex;
+    border-radius: 1rem;
 	align-items: flex-end;
-	padding: 2rem 1rem;
+	padding: 3rem 3rem;
 	position: relative;
 	transition: 0.5s all ease-in-out;
+    box-shadow: 5px 5px 10px #555;
 }
 .card-s:hover {
 	/* transform: translateY(-10px); */
-	transform: scale(1.06);
+	transform: scale(1.05);
 }
 .card-s::before {
 	content: '';
@@ -324,10 +339,11 @@ ul li a:hover{
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: linear-gradient(to bottom, rgba(13, 36, 63, 0.3), rgba(13, 36, 63, 1));
-	z-index: 2;
+	background: linear-gradient(to bottom, rgba(255, 244, 244, 0.6), rgba(13, 36, 63, 1));
+	z-index: 3;
 	opacity: 0;
 	transition: 0.5s all;
+    border-radius: 1rem;
 }
 .card-s:hover::before {
 	opacity: 1;
@@ -340,6 +356,7 @@ ul li a:hover{
 	position: absolute;
 	top: 0;
 	left: 0;
+    border-radius: 1rem;
 }
 .card-s .info {
 	position: relative;
