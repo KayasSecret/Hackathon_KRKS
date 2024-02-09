@@ -127,26 +127,45 @@ ul li a:hover{
     align-items: center;
     gap: 2rem;
     background-image: linear-gradient(white, rgb(88, 88, 47));
-  }
+    height: 100%;
+}
   
-  .heading{
+.heading-ab {
     text-align: center;
-    font-size: 4.5rem;
-  }
+    font-size: 3.5rem;
+    margin-top: 3rem;
+}
   
-  .about-content h2{
+.about-content h2{
     text-align: left;
     line-height: 1.2;
-  }
+}
   
-  .about-content h3{
-    font-size: 2.6rem;
-  }
+.about-content h3{
+    font-size: 2.2rem;
+}
   
-  .about-content p{
-    font-size: 1.6rem;
-    margin: 2rem 0 3rem;
-  }
+.about-content p{
+    font-size: 1.3rem;
+    margin: 1rem 5rem 0 0;
+}
+
+.btn-ab {
+    display: inline-block;
+    padding: 0.5rem;    
+    margin-top: 1rem;
+    background: beige;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    color: black;
+    letter-spacing:0.05rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.btn-ab:hover{
+    box-shadow: 0 0 0.5rem white;
+}
 
 /* =====Services Section===== */
 
@@ -198,7 +217,7 @@ ul li a:hover{
 
 .btn_k{
     display: inline-block;
-    padding: 0.5rem;
+    padding: 0.5rem;    
     background: beige;
     border-radius: 2rem;
     font-size: 1.4rem;
