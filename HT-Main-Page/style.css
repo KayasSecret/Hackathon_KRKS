@@ -123,17 +123,18 @@ ul li a:hover{
 
 .about {
     display: flex;
+    margin: 0;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 3rem;
     background-image: linear-gradient(white, rgb(88, 88, 47));
-    height: 100%;
+    height: 100vh;
 }
   
 .heading-ab {
     text-align: center;
     font-size: 3.5rem;
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
   
 .about-content h2{
@@ -148,6 +149,22 @@ ul li a:hover{
 .about-content p{
     font-size: 1.3rem;
     margin: 1rem 5rem 0 0;
+}
+
+.about-img {
+    height: 40rem;
+    width: 40rem;
+    filter: drop-shadow(5px 5px 10px #050505);
+    animation: floatImage-ab 3s ease-in-out infinite;
+}
+
+@keyframes floatImage-ab {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+        transform: translateY(2.5rem);
+    }
 }
 
 .btn-ab {
