@@ -526,3 +526,15 @@ ul li a:hover{
     width: 80px;
     background-color: rgba(255, 255, 255, 0.2);
 }
+
+.social-link-f a{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.social-link-f a i {
+    color: white;
+    font-size: 2rem;
+    margin:1rem;
+}
