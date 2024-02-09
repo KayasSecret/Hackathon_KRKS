@@ -7,6 +7,7 @@
     outline: none;
     scroll-behavior: smooth;
     font-family: 'Bitter' , 'Oxygen' , 'Roboto';
+    text-align:justify;
 }
 
 h2{
@@ -130,13 +131,7 @@ ul li a:hover{
     background-image: linear-gradient(white, rgb(88, 88, 47));
     height: 100vh;
 }
-  
-.heading-ab {
-    text-align: center;
-    font-size: 3.5rem;
-    margin-top: 1rem;
-}
-  
+
 .about-content h2{
     text-align: left;
     line-height: 1.2;
@@ -165,23 +160,6 @@ ul li a:hover{
     50% {
         transform: translateY(2.5rem);
     }
-}
-
-.btn-ab {
-    display: inline-block;
-    padding: 0.5rem;    
-    margin-top: 1rem;
-    background: beige;
-    border-radius: 2rem;
-    font-size: 1.2rem;
-    color: black;
-    letter-spacing:0.05rem;
-    font-weight: 500;
-    text-decoration: none;
-}
-
-.btn-ab:hover{
-    box-shadow: 0 0 0.5rem white;
 }
 
 /* =====Services Section===== */
@@ -227,14 +205,14 @@ ul li a:hover{
 }
   
 .services-box p{
-    font-size: 1.2rem;
-    text-align:justify;
+    font-size: 1.2rem;  
     color: #f7f6f6;
 }
 
-.btn_k{
+.btn_k , .btn-ab{
     display: inline-block;
-    padding: 0.5rem;    
+    padding: 0.5rem; 
+    margin-top: 0.5rem;   
     background: beige;
     border-radius: 2rem;
     font-size: 1.4rem;
@@ -243,8 +221,8 @@ ul li a:hover{
     font-weight: 500;
     text-decoration: none;
 }
-  
-.btn_k:hover{
+
+.btn_k:hover , .btn-ab:hover{
     box-shadow: 0 0 0.5rem white;
 }
   
