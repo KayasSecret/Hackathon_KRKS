@@ -148,7 +148,7 @@ ul li a:hover{
 
 .about-img {
     height: 40rem;
-    width: 40rem;
+    width: 50rem;
     filter: drop-shadow(5px 5px 10px #050505);
     animation: floatImage-ab 3s ease-in-out infinite;
 }
