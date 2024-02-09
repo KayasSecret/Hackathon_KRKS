@@ -62,13 +62,9 @@
     width: calc(100% - 18px);
     padding: 0.4rem;
     margin-bottom: 1rem;
-    border: 1px solid rgb(138, 138, 59);
+    border: 1px solid rgb(60, 60, 21);
     border-radius: 0.3rem;
     outline: none;
-}
-
-input::placeholder {
-    color: #666;
 }
 
 .contact_btn{
@@ -103,6 +99,11 @@ input::placeholder {
 }
 
 .rev_btn, .review textarea{
-    padding: 0.2rem;
+    padding: 0.3rem;
     border-radius: 0.2rem;
+}
+
+.rev_btn:hover{
+    box-shadow: 0 0 0.5rem white;
+    background: rgb(164, 123, 138);
 }

@@ -14,6 +14,14 @@ h2{
     font-size: 2.5rem;
 }
 
+input:hover , textarea:hover{
+    box-shadow: 0 0 0.5rem white;
+}
+
+input::placeholder , textarea::placeholder{
+    color: rgb(75, 73, 73);
+}
+
 .nav{
     height: 8vh;
     width: 100%;

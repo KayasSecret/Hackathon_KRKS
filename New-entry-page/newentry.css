@@ -31,6 +31,11 @@
     padding: 0.5rem;
     font-size: 1.3rem;
     border-radius: 0.5rem;
+    border: 1px solid transparent;
+}
+
+.file:hover{
+    box-shadow: none;
 }
 
 .newEnt-btn{
@@ -38,4 +43,9 @@
     font-size: 1.3rem;
     border-radius: 0.8rem;
     font-weight: 600;
+}
+
+.newEnt-btn:hover{
+    box-shadow: 0 0 0.5rem white;
+    background: rgb(164, 123, 138);
 }
