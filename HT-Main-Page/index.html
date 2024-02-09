@@ -11,6 +11,7 @@
 
     <!--Normal CSS file-->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/New-entry-page/newentry.css">
     
     <!--Logo-->
     <link rel="shortcut icon" href="/images/logo.png" type="image/x-icon">
@@ -174,6 +175,41 @@
                 </div>
             </div>
         </section>
+
+        <!-- Entry Section -->
+        <section class="newEntry">
+            <h2>Add Your House Information</h2>
+            <form class="newEnt-Form">
+                <label for="name"></label>
+                <input type="text" name="name" id="name" placeholder="Full Name">
+                
+                <label for="email"></label>
+                <input type="email" name="email" id="email" placeholder="Email Address">
+                
+                <label for="contact"></label>
+                <input type="phone" name="contact" id="contact" placeholder="Contact number">
+                
+                <label for="address"></label>
+                <input type="text" name="address" id="address" placeholder="Address ">
+                
+                <label for="rooms"></label>
+                <input type="text" name="rooms" id="room" placeholder="No. of Rooms">
+                
+                <label for="price"></label>
+                <input type="text" name="price" id="price" placeholder="Price of room/month">
+                
+                <label for="floor"></label>
+                <input type="text" name="floor" id="floor" placeholder="Floor ">
+                
+                <label for="registration_date"></label>
+                <input type="date" name="registration_date" id="reg_date" placeholder="registration date">
+                
+                <label for="files"></label>
+                <input type="file" name="registration_date" id="files" class="file">
+    
+                <button class="newEnt-btn" onclick="addCard(); event.preventDefault();" >Sumbit</button>
+            </form>
+        </section>
     </main>
 
     <!--== Footer Section ==-->
@@ -259,6 +295,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
     <!-- our Js -->
-    <script src="/Cards-info/card.js"></script>
+    <script src="/card.js"></script>
 </body>
 </html>
