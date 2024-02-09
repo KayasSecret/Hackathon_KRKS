@@ -11,15 +11,13 @@ let newBtn = document.querySelector(".new-btn");
 
 let cards = document.querySelector(".wrapper");
 
-// newBtn.addEventListener("click", (evt)=>{
-//     evt.preventDefault();
-// });
-
 const addCard = ()=> {
     let newCard = document.createElement('div');
     newCard.classList.add("card-s"); 
     cards.append(newCard);
-    console.log("hello");
+
+    let addressVal = Address.value;
+    newCard.innerHTML 
 }
 
 
