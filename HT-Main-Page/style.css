@@ -296,7 +296,7 @@ ul li a:hover{
     font-size: 1.3rem;
 }
 
-/* === Practice sneha (in cards) ===*/
+/* === (in cards) ===*/
 
 .frod {
     display: flex;
@@ -315,6 +315,7 @@ ul li a:hover{
     flex-wrap: wrap;
 }
 .card-s {
+    border: 2px solid black;
 	width: 24rem;
 	height: 29.5rem;
     margin-bottom: 2rem;
