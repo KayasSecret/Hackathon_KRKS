@@ -4,39 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="newEntry.html">
+    <link rel="stylesheet" href="/HT-Main-Page/style.css">
+    <link rel="stylesheet" href="newentry.css">
 </head>
 <body>
-    <section>
+
+    <!--== Navigation Section ==-->
+    <header id="Home"> 
+        <nav class="nav" data-spy="affix">
+            <div class="head-f1">
+                Rental Rover
+            </div>
+            <div class="head-f2">
+                <ul class="nav_btn">
+                    <li><a href="/HT-Main-Page/index.html">Home</a></li>
+                    <li><a href="/HT-Main-Page/index.html">Services</a></li>
+                    <li><a href="/HT-Main-Page/index.html">RentHouse</a></li>
+                    <!-- <li><a href="#Reviews">Reviews</a></li> -->
+                    <li><a class="btn btn-primary" href="/Login-Page/index.html">Log in/Sign Up</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- add information Section -->
+    <section class="newEntry">
         <h2>Add Your House Information</h2>
-        <form>
+        <form class="newEnt-Form">
             <label for="name"></label>
-            <input type="text" name="name" placeholder="Enter your Name">
+            <input type="text" name="name" placeholder="Full Name">
             
             <label for="email"></label>
-            <input type="email" name="email" placeholder="Enter your Email Address">
+            <input type="email" name="email" placeholder="Email Address">
             
             <label for="contact"></label>
-            <input type="phone" name="contact" placeholder="Enter your Contact number">
+            <input type="phone" name="contact" placeholder="Contact number">
             
             <label for="address"></label>
-            <input type="text" name="address" placeholder="Enter Address ">
+            <input type="text" name="address" placeholder="Address ">
             
             <label for="rooms"></label>
-            <input type="text" name="rooms" placeholder="Enter no. of rooms">
+            <input type="text" name="rooms" placeholder="No. of Rooms">
             
             <label for="price"></label>
-            <input type="text" name="price" placeholder="Enter price of room / month">
+            <input type="text" name="price" placeholder="Price of room/month">
             
             <label for="floor"></label>
-            <input type="text" name="floor" placeholder="Enter Floor ">
+            <input type="text" name="floor" placeholder="Floor ">
             
             <label for="registration_date"></label>
-            <input type="date" name="registration_date" placeholder="Enter registration date">
+            <input type="date" name="registration_date" placeholder="registration date">
             
             <label for="files"></label>
             <input type="file" name="registration_date" placeholder="Enter registration date">
+
+            <button class="newEnt-btn">Sumbit</button>
         </form>
     </section>
+
+    <!--== JS (Bootstrap) ==-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

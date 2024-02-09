@@ -1,0 +1,41 @@
+.newEntry{
+    background-image: linear-gradient(white, rgb(88, 88, 47));
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.newEntry h2{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.newEnt-Form{
+    width: 50vw;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: teal;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    padding: 1.5rem;
+}
+
+.newEnt-Form input{
+    width:40%;
+    margin: 0.5rem;;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    border-radius: 0.5rem;
+}
+
+.newEnt-btn{
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    border-radius: 0.8rem;
+    font-weight: 600;
+}

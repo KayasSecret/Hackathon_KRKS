@@ -9,6 +9,11 @@
     font-family: 'Bitter' , 'Oxygen' , 'Roboto';
 }
 
+h2{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
 .nav{
     height: 8vh;
     width: 100%;
@@ -110,38 +115,31 @@ ul li a:hover{
 
 .services {
     min-height: 100vh;
-    padding: 5rem;
-}
-
-.services h1{
-    text-align: center;
-    margin-bottom: 2rem;
+    padding-top: 4rem;
 }
 
 .services-container {
+    margin: 2rem 1.8rem 0rem 1.8rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
-    margin-left: 1.8rem;
-    margin-right: 1.8rem;
 }
   
 .services-container .services-box{
-    height: 80%;
-    flex: 1 1 20rem;
+    height: fit-content;
+    flex: 1 1 30rem;
     background:teal;
     padding: 1.5rem;
+    text-align:center;
     border-radius: 1.5rem;
-    text-align: center;
-    border: 0.1rem solid black;
+    border: 0.1rem solid transparent;
     transition: 0.5s ease;
 }
   
 .services-container .services-box:hover{
-    border-color: rgb(241, 167, 6);
-    transform: scale(1.03);
+    transform: scale(1.02);
 }
   
 .services-box i{
@@ -151,30 +149,29 @@ ul li a:hover{
 }
   
 .services-box h3{
-    font-size: 2.3rem;
-    color: wh;
+    padding-top: 1rem;
+    font-size: 2rem;
 }
   
 .services-box p{
     font-size: 1.2rem;
-    margin: 1rem 0 3rem;
+    text-align:justify;
     color: #f7f6f6;
 }
 
 .btn_k{
     display: inline-block;
-    padding: 1rem;
+    padding: 0.5rem;
     background: beige;
-    border-radius: 3rem;
-    font-size: 1.6rem;
+    border-radius: 2rem;
+    font-size: 1.4rem;
     color: black;
-    letter-spacing:0.1rem;
+    letter-spacing:0.05rem;
     font-weight: 500;
     text-decoration: none;
 }
   
 .btn_k:hover{
-    /* box-shadow: none; */
     box-shadow: 0 0 0.5rem white;
 }
   
@@ -184,14 +181,9 @@ ul li a:hover{
     padding-bottom: 1.2rem;
 }
 
-.main_heading{
-    text-align: center;
-    padding-bottom: 1rem;
-}
-
 .search_control{
     display: flex;
-    margin: 0rem 5rem 0rem 5rem;
+    margin: 1rem 5rem 0rem 5rem;
 }
 
 .search_box{
@@ -226,30 +218,6 @@ ul li a:hover{
     border-radius: 0rem 1rem 1rem 0rem;
 }
 
-.card_container{
-    padding: 0;
-    margin:0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.card{ 
-    margin: 1.2rem 0rem 0rem 1.2rem;
-    height:30rem;
-    width: 25%;
-    box-shadow: 5px 5px 10px #555;
-}
-
-.card_img{
-    height: 70%;
-    border-radius: 0.3rem;
-}
-
-/* .card_img:hover {
-    transform: scale(1.5rem);
-}*/
-
 .card_img a{
     float: right;
     padding: 0.2rem;
@@ -275,30 +243,6 @@ ul li a:hover{
     width: fit-content;
     border-radius: 0.5rem;
     font-size: 1.3rem;
-}
-
-.show_more{
-    margin-top:1.2rem;
-    text-align: center;
-}
-
-.more_btn{
-    width: 15%;
-    border-radius:1rem;
-    padding: 0.5rem;
-    border: none;
-    /* background: rgb(4, 187, 187);  */
-    background:  rgb(138, 138, 59); 
-    font-size: 1.3rem;
-    font-weight: 400;
-    color: #fff;
-}
-
-.contact_btn:hover, .more_btn:hover{
-    /* background: #005991; */
-    background: white;
-    color:rgb(138, 138, 59) ;
-    border: 1.5px solid rgb(138, 138, 59) ;
 }
 
 /* === Practice sneha (in cards) ===*/
