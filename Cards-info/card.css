@@ -123,6 +123,44 @@ button:hover {
     background: #009225;
 }
 
+/* ====Rev Section==== */
+
+.contain-rev {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e3f2fd;
+}
+
+.rev-test {
+    position: relative;
+    max-width: 56.25rem;
+    width: 100%;
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.rev-test img {
+    height: 20rem;
+    width: 20rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.rev-test .slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.slide p {
+    text-align: center;
+    padding: 0 160px;
+}
+
 /* ==== Footer ===== */
 
 .foot-container {
