@@ -120,8 +120,20 @@
     text-align:justify;
 }
 
-.image-col {
-    display: inline-block;
-    width: 5rem;
-    height: 5rem;
+.image-row {
+    display: flex; 
+    float: left;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+    padding-bottom: 1rem;
+}
+
+.image-row img {
+    width: 400px;
+    height: 300px;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
 }
