@@ -168,14 +168,12 @@
   
 .elem-group input, select, textarea {
     border-radius: 2px;
-    border: 2px solid #777;
     box-sizing: border-box;
     font-size: 1.25em;
-    /* font-family: 'Nanum Gothic'; */
     width: 100%;
     padding: 10px;
 }
-  
+
 .elem-group.inlined input {
     width: 95%;
     display: inline-block;
