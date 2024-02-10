@@ -31,31 +31,24 @@
 /* Card Rooms Information */
 
 .card-det {
-    background-color: tomato;
-    height: 50rem;
-    width: 50rem;
-    margin-left: 21.5rem;
-    margin-top: 40rem;
-}
- 
-.card-det h1 {
-    padding-left: 2.5rem;
+    height: fit-content;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
-.card-det-c {
-    background-color: slateblue;
-    height: 100vh;
-    width: 45rem;
-    margin-left: 2.5rem;
+.more-info{
+    background-color: rgb(223, 243, 243);
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 4px 7px 7px;
 }
 
-.card-det-c .more-info {
-    padding-left: 3rem;
-    padding-top: 3rem;
-}
-
-.card-det-c .more-info p {
-    font-weight: 800;
+.more-info p {
+    font-weight: 500;
+    padding: 0rem 2rem 0 2rem;
+    font-size: 1.3rem;
 }
 
 /* ====== Form Control ======= */
@@ -63,7 +56,7 @@
     width: 47.75rem;
     margin: 0 auto;
     padding: 2.5rem;
-    background: #4b5c00;
+    background: #6e783e;
     border-radius: 1%;
     color: aliceblue;
 }
