@@ -468,7 +468,7 @@ ul li a:hover{
 
 .foot-container {
     max-width: 90.1rem;
-    /* background-color: #000000; */
+    background-color: #000000;
     margin: auto;
 }
 
@@ -484,7 +484,7 @@ ul li a:hover{
 }
 
 .footer {
-    /* background-color: #000000; */
+    background-color: #000000;
     padding-top: 2rem;
     padding-bottom: 8rem;
 }
@@ -549,17 +549,21 @@ ul li a:hover{
 }
 
 .social-link-f a i {
-    /* color: white; */
-    color: black;
+    color: white;
+    /* color: black; */
     font-size: 1.4rem;
     margin:0.5rem;
 }
 
 .img-foot{
-    width: 15rem;
-    height: 15rem;
-    /* background-image: url(/images/footer.png);
-    background-size: cover; */
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: white;
+    background-image: url(/images/footer.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 /* .img-foot img{
