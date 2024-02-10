@@ -263,10 +263,11 @@ ul li a:hover{
 .search_btn{
     background-color: rgb(50, 132, 50);
     color: white;
-    font-size: medium;
+    font-size: 1.2rem;
     width: 10%;
     height:3rem ;
     border-radius: 0rem 1rem 1rem 0rem;
+    text-align: center;
 }
 
 .card_img a{
@@ -315,7 +316,6 @@ ul li a:hover{
     flex-wrap: wrap;
 }
 .card-s {
-    border: 2px solid black;
 	width: 24rem;
 	height: 29.5rem;
     margin-bottom: 2rem;
@@ -461,6 +461,7 @@ ul li a:hover{
 .row-f {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .foot-col ul {
