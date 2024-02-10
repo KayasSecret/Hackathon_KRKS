@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+   <div class="container">
+        <h1>Register Your Room</h1>
+        <p>You are on Register Page</p>
+        <p class="submitMsg">Thanks For Submiting your form</p>
+
+        <form action="index.php" method="post">
+            <input type="text" name="name" id="name" placeholder="Enter Your Name">
+            <input type="email" name="email" id="email" placeholder="Enter Your email">
+            <input type="number" name="phone" id="phone" placeholder="Enter Your phone number">
+            <input type="text" name="address" id="address" placeholder="Enter Your address">
+            <input type="number" name="rooms" id="rooms" placeholder="Enter Your Number of Rooms">
+            <input type="number" name="price" id="price" placeholder="Enter Your price of room">
+            <input type="number" name="floor" id="floor" placeholder="Enter Your floor">
+            <!--<input type="date" name="booking_date" id="booking_date">-->
+            <button class="btn">Submit</button>
+        </form>
+
+   </div>
+   <script src="index.js"></script>
+   
+</body>
+</html>
