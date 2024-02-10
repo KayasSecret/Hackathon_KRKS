@@ -21,31 +21,44 @@ if ($conn->query($sql_create_database) === TRUE) {
   echo "Error creating database: " . $conn->error;
 }
 
-$sql_create_table = "CREATE TABLE IF NOT EXISTS login (
-                        name VARCHAR(30) NOT NULL,
-                        email VARCHAR(50)
-                    )";
+$sql_create_table = "CREATE TABLE IF NOT EXISTS users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(50) NOT NULL,
+    password VARBINARY(64) NOT NULL,
+    email VARCHAR(100)
+)";
 
 if ($conn->query($sql_create_table) === TRUE) {
-    echo "<br>Table 'login' created successfully or already exists";
+    echo "<br>Table 'users' created successfully or already exists";
 } else {
     echo "Error creating table: " . $conn->error;
 }
 
+function is_strong_password($password) {
+    // Define password strength criteria
+    $min_length = 8;
+    $has_uppercase = preg_match('/[A-Z]/', $password);
+    $has_lowercase = preg_match('/[a-z]/', $password);
+    $has_number = preg_match('/\d/', $password);
+    $has_special_char = preg_match('/[^a-zA-Z\d]/', $password); // Special characters are anything that is not a letter or a number
+
+    // Check if the password meets the criteria
+    return strlen($password) >= $min_length && $has_uppercase && $has_lowercase && $has_number && $has_special_char;
+}
+
 $name = $_POST["name"];
 $email = $_POST["email"];
+$password = $_POST["pawssword"];
 
 if (empty($_POST["name"])) {
     $nameErr = "Name is required";
-    
 } else {
     $name = $_POST["name"];
-    // check if name only contains letters and whitespace
-    if (!preg_match("/^[a-zA-Z-' ]*$/",$name)) {
-      $nameErr = "Only letters and white space allowed";
+    // Check if name only contains letters and whitespace
+    if (!preg_match("/^[a-zA-Z-' ]*$/", $name)) {
+        $nameErr = "Only letters, hyphens, apostrophes, and spaces allowed";
     }
-  }
-
+}
  if (empty($_POST["email"])) {
     $emailErr = "Email is required";
  } else {
@@ -56,8 +69,14 @@ if (empty($_POST["name"])) {
     }
     }
     
-$sql = "INSERT INTO login (name, email)
-VALUES ('$name','$email')";
+if (empty($password)) {
+    $passwordErr = "Password is required";
+} elseif (!is_strong_password($password)) {
+    $passwordErr = "Password must be at least 8 characters long and contain uppercase letters, lowercase letters, numbers, and special characters";
+}
+    
+$sql = "INSERT INTO users (name, email, password)
+VALUES ('$name','$email','$password')";
 
 if ($conn->query($sql) === TRUE) {
   echo "<br>New record created successfully";
