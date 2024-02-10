@@ -42,13 +42,8 @@
         </nav>
     </header>
     <br>
-
-    <!-- house info -->
-
-    <!-- slider code start -->
-
     <section class="card-info-c">
-        <h1>House Images</h1>
+        <h1>House Information</h1>
         <div class="image-row">
                 <img src="/images/House-image/room-1.jpg" alt="">
                 <img src="/images/House-image/room-2.jpg" alt="">
@@ -56,109 +51,68 @@
                 <img src="/images/House-image/room-4.avif" alt="">
                 <img src="/images/House-image/room-3.jpg" alt="">
                 <img src="/images/House-image/room-2.jpg" alt="">
-        </div>    
-
-    <!-- Contact to Owner -->
-        <div class="main-block">
-            <form class="contact" action="/">
-            <h1>Contact Owner </h1>
-                <div class="info">
-                    <label for="text">Name</label>
-                    <input class="fname" type="text" name="name" placeholder="Full name">
-
-                    <label for="Email">Email</label>
-                    <input type="text" name="name" placeholder="Email">
-
-                    <label for="number">Phone Number</label>
-                    <input type="text" name="name" placeholder="Phone number">
-
-                    <label for="date">Booking Date</label>
-                    <input type="date" name="name" placeholder="Phone number">
-
-                    
-                    <label for="use">Required for</label><br>
-                    
-                    <input type="checkbox" name="name" id="checkbox">
-                    <label for="Individual">Individual</label><br>
-
-                    <input type="checkbox" name="name" id="checkbox">
-                    <label for="Family">Family</label>
-                    <input type="text" placeholder="No. of Members" id="checkbox" >
-                    
-                </div>
-                <button class="contact_btn"  type="submit">Submit</button>
-            </form>
-        </div>
-    </section>
-
-    <!-- <section class="card_info" >
-        <div class="more_img">
-            <div  class="m_img" style="background-image: url(/images/House-image/k1.jpg);"></div>
-            <div class="m_img" style="background-image: url(/images/House-image/k2.jpg);"></div>
-            <div class="m_img" style="background-image: url(/images/House-image/k1.jpg);"></div>
-            <div class="m_img" style="background-image: url(/images/House-image/k3.jpg);"></div>
-        </div>     
+        </div> 
+        <br>
         <div class="more_info">
             <p> <i class="fa-solid fa-money-bill"></i> Price: 2000rs / month</p>
             <p> <i class="fa-regular fa-square"></i> Rooms : 2</p> 
             <p> <i class="fa-solid fa-stairs"></i> Floor : Ground</p>
-
             <p> <i class="fa-solid fa-tag"></i> Registered on : February 2024</p>
         </div>
-
-        <!- Contact Owner -->
-        <!-- <div class="main-block">
-            <form class="contact" action="/">
-            <h1>Contact Owner </h1>
-                <div class="info">
-                    <label for="text">Name</label>
-                    <input class="fname" type="text" name="name" placeholder="Full name">
-
-                    <label for="Email">Email</label>
-                    <input type="text" name="name" placeholder="Email">
-
-                    <label for="number">Phone Number</label>
-                    <input type="text" name="name" placeholder="Phone number">
-
-                    <label for="date">Booking Date</label>
-                    <input type="date" name="name" placeholder="Phone number">
-
-                    
-                    <label for="use">Required for</label><br>
-                    
-                    <input type="checkbox" name="name" id="checkbox">
-                    <label for="Individual">Individual</label><br>
-
-                    <input type="checkbox" name="name" id="checkbox">
-                    <label for="Family">Family</label>
-                    <input type="text" placeholder="No. of Members" id="checkbox" >
-                    
-                </div>
-                <button class="contact_btn"  type="submit">Submit</button>
-            </form>
-        </div>
-
-        < Review Section -->
-        <!-- <aside class="review">
-            <h4>Customer Reviews</h4>
-            <ul class="rev_list">
-                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
-                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
-                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
-                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
-                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
-            </ul>
-            <form action="/" class="new_rev">
-                <label for="review" class="rev-in-hd">Add Your Review</label><br>
-                <textarea rows="3" placeholder="Write your review here"></textarea>
-                <button class="rev_btn">Add</button>
-            </form>
-        </aside>
     </section>
+    <!-- Contact Form-->
+    <form class="booking-form" action="#" method="post">
+        <div class="elem-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="visitor_name" placeholder="John Doe" pattern=[A-Z\sa-z]{3,20} required>
+        </div>
+        <div class="elem-group">
+          <label for="email">Your E-mail</label>
+          <input type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" required>
+        </div>
+        <div class="elem-group">
+          <label for="phone">Your Phone</label>
+          <input type="tel" id="phone" name="visitor_phone" placeholder="498-348-3872" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+        </div>
+        <hr>
+        <div class="elem-group inlined">
+          <label for="adult">Adults</label>
+          <input type="number" id="adult" name="total_adults" placeholder="2" min="1" required>
+        </div>
+        <div class="elem-group inlined">
+          <label for="child">Children</label>
+          <input type="number" id="child" name="total_children" placeholder="2" min="0" required>
+        </div>
+        <div class="elem-group inlined">
+          <label for="checkin-date">Check-in Date</label>
+          <input type="date" id="checkin-date" name="checkin" required>
+        </div>
+        <div class="elem-group inlined">
+          <label for="checkout-date">Check-out Date</label>
+          <input type="date" id="checkout-date" name="checkout" required>
+        </div>
+        <div class="elem-group">
+          <label for="room-selection">Select Room Preference</label>
+          <select id="room-selection" name="room_preference" required>
+              <option value="">Choose a Room from the List</option>
+              <option value="connecting">Connecting</option>
+              <option value="adjoining">Adjoining</option>
+              <option value="adjacent">Adjacent</option>
+          </select>
+        </div>
+        <hr>
+        <div class="elem-group">
+          <label for="message">Anything Else?</label>
+          <textarea id="message" name="visitor_message" placeholder="Tell us anything else that might be important." required></textarea>
+        </div>
+        <button type="submit">Book The Rooms</button>
+      </form>
+      <br>
 
-    <footer>
-    </footer> -->
     <!--== JS (Bootstrap) ==-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JS Link -->
+    <script src="app-card.js"></script>
 </body>
 </html>
