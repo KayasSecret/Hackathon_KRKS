@@ -453,7 +453,7 @@ ul li a:hover{
 /* =====footer===== */
 
 .foot-container {
-    max-width: 73.1rem;
+    max-width: 90.1rem;
     background-color: #000000;
     margin: auto;
 }
@@ -470,8 +470,8 @@ ul li a:hover{
 }
 
 .footer {
-    background-color: #24262b;
-    padding: 4.4rem 0;
+    background-color: #141414;
+    /* padding: 4.4rem 0; */
 }
 
 .foot-col {
@@ -529,13 +529,12 @@ ul li a:hover{
 }
 
 .social-link-f a{
-    display: flex;
     text-decoration: none;
     justify-content: center;
 }
 
 .social-link-f a i {
     color: white;
-    font-size: 2rem;
-    margin:1rem;
+    font-size: 1.4rem;
+    margin:0.5rem;
 }
