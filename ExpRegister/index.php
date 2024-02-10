@@ -29,7 +29,8 @@ $sql_create_table = "CREATE TABLE IF NOT EXISTS register (
     address VARCHAR(500),
     rooms INT,
     price DECIMAL(10,2),
-    floor INT
+    floor INT,
+    booking DATETIME
 )";
 
 if ($conn->query($sql_create_table) === TRUE) {
@@ -45,7 +46,7 @@ $address = $_POST["address"];
 $rooms = $_POST["rooms"];
 $price = $_POST["price"];
 $floor = $_POST["floor"];
-//$booking_date = $_POST["booking_date"];
+$booking = $_POST["booking"];
 
 if (empty($_POST["name"])) {
     $nameErr = "Name is required";
@@ -112,16 +113,16 @@ if (empty($_POST["floor"])) {
         }
     }
     
-//if (empty($_POST["booking_date"])) {
-//    $bookingDateErr = "Invalid booking date format";
-// }
-//    
+if (empty($_POST["booking"])) {
+   $bookingDateErr = "Invalid booking date format";
+}
+   
 
     
-$sql = "INSERT INTO register (name, email, phone, address, rooms, price, floor) 
-            VALUES (?, ?, ?, ?, ?, ?, ?)";
+$sql = "INSERT INTO register (name, email, phone, address, rooms, price, floor, booking) 
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
     $stmt = $conn->prepare($sql);
-    $stmt->bind_param("ssisidi", $name, $email, $phone, $address, $rooms, $price, $floor);
+    $stmt->bind_param("ssisidis", $name, $email, $phone, $address, $rooms, $price, $floor, $booking);
     if ($stmt->execute()) {
         echo "<br>New record created successfully";
     } else {
