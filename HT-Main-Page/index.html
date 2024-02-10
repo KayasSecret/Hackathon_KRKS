@@ -148,7 +148,7 @@
                         <a href="/Cards-info/card.html"  class="btn">Read More</a>
                     </div>
                 </div>
-                <div class="card-s">
+                <!-- <div class="card-s">
                     <img src="/images/House-image/k1.jpg" alt="">
                     <div class="info">
                         <h1>Abhishek House</h1>
@@ -177,7 +177,7 @@
                         <p>Room : 2BHK</p>
                         <a href="/Cards-info/card.html"  class="btn">Read More</a>
                     </div>
-                </div>
+                </div> -->
             </div>
         </section>
 
@@ -208,11 +208,16 @@
                 
                 <label for="registration_date"></label>
                 <input type="date" name="registration_date" id="reg_date" placeholder="registration date">
-                
-                <label for="files"></label>
-                <input type="file" name="registration_date" id="files" class="file">
-    
-                <button class="newEnt-btn" onclick=" addCard();  event.preventDefault();" >Sumbit</button>
+            
+                <p class="Housefile">
+                    <label for="house_img">Upload House Image: </label>
+                    <input type="file" name="house_img" id="files" class="file">
+                </p>
+                <p class="Roomfiles">
+                    <label for="room_img">Upload Room Images:</label>
+                    <input type="file" name="room_img" id="files" class="file">
+                </p>
+                <button class="newEnt-btn" onclick=" addCard();  event.preventDefault();" >Upload</button>
             </form>
         </section>
     </main>

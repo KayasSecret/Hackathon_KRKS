@@ -427,7 +427,7 @@ ul li a:hover{
 
 .newEnt-Form input{
     width:40%;
-    margin: 0.5rem;;
+    margin: 0.5rem;
     padding: 0.5rem;
     font-size: 1.3rem;
     border-radius: 0.5rem;
@@ -438,11 +438,24 @@ ul li a:hover{
     box-shadow: none;
 }
 
+.Roomfiles, .Housefile{
+    /* display: block; */
+    font-size: 1.3rem;
+    width:100%;
+    margin-left: 5rem;
+}
+
+.Roomfiles input, .Housefile input{
+    margin: 0;
+    width: fit-content;
+}
+
 .newEnt-btn{
     padding: 0.5rem;
     font-size: 1.3rem;
     border-radius: 0.8rem;
     font-weight: 600;
+    display: block;
 }
 
 .newEnt-btn:hover{
