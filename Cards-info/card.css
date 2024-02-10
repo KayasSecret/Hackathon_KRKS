@@ -22,13 +22,6 @@
     margin-top: 2.5rem;
 }
 
-/* maincont */
-/* .main_cont{
-    display: flex;
-    width: 100vw;
-} */
-
-
 /* ===== Card Rooms Information ===== */
 
 .card-det {
@@ -70,7 +63,7 @@
   
 .elem-group.inlined {
     width: 49%;
-    display: inline-block;
+    /* display: inline-block; */
     float: left;
     margin-left: 1%;
 }
@@ -120,10 +113,9 @@ button:hover {
     background: #009225;
 }
 
-/* review Section */
-/* ====Rev Section==== */
+/* ====Rev Section====  kayash */
 
-.contain-rev {
+/* .contain-rev {
     height: 100vh;
     width: 100%;
     display: flex;
@@ -157,11 +149,11 @@ button:hover {
 .slide p {
     text-align: center;
     padding: 0 160px;
-}
+} */
 
-/* ==== Footer ===== */
+/* ==== review Section  {Sneha} ===== */
 
-/* .review_box{
+.review_box{
     width: 25vw;
     height: 100vh;
     background-color:rgb(230, 230, 241);
@@ -189,4 +181,4 @@ button:hover {
 .add_rev textarea{
     height: fit-content;
     margin-left: 0.5rem;
-} */
+}
