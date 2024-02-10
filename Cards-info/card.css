@@ -28,6 +28,36 @@
     margin-bottom: 2rem;
 }
 
+/* Card Rooms Information */
+
+.card-det {
+    background-color: tomato;
+    height: 50rem;
+    width: 50rem;
+    margin-left: 21.5rem;
+    margin-top: 40rem;
+}
+ 
+.card-det h1 {
+    padding-left: 2.5rem;
+}
+
+.card-det-c {
+    background-color: slateblue;
+    height: 100vh;
+    width: 45rem;
+    margin-left: 2.5rem;
+}
+
+.card-det-c .more-info {
+    padding-left: 3rem;
+    padding-top: 3rem;
+}
+
+.card-det-c .more-info p {
+    font-weight: 800;
+}
+
 /* ====== Form Control ======= */
 .booking-form {
     width: 47.75rem;
