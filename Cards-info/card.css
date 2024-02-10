@@ -1,113 +1,3 @@
-/*.card_info{
-    height:fit-content;
-    display: grid;
-    grid-template-areas: 
-                        'im im rv rv rv'
-                        'if if rv rv rv'
-                        'cd cd rv rv rv';
-}
-
-.more_img{
-    grid-area: im;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.more_info{
-    grid-area: if;   
-    margin: 1rem 15% 1rem 15%;
-    display: flex;
-    flex-direction: column;
-}
-
-.main-block{
-    grid-area: cd;
-}
-
-.more_info p{
-    font-size: 1.4rem;
-}
-
-.m_img{
-    margin: 1rem 1rem 0rem 1rem;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width:15rem;
-    height:15rem;
-}
-
-.review{
-    grid-area: rv;
-    background-color: teal;
-    padding: 1rem;
-    color: white;
-}
-
-/* Owner Card */
-/* #checkbox{
-    width: fit-content;
-}
-
-.contact {
-    width: 70%;
-    margin:0rem 15% 0rem 15%;
-    border-radius: 2%;
-    padding: 1.5rem;
-    box-shadow: 5px 5px 10px #555;
-    background-color: white;
-}
-    
-.contact input{
-    width: calc(100% - 18px);
-    padding: 0.4rem;
-    margin-bottom: 1rem;
-    border: 1px solid rgb(60, 60, 21);
-    border-radius: 0.3rem;
-    outline: none;
-}
-
-.contact_btn{
-    width: 35%;
-    border-radius:1rem;
-    padding: 0.5rem;
-    border:1px solid transparent;
-    /* background: rgb(4, 187, 187);  */
-    /* background:  rgb(138, 138, 59); 
-    font-size: 1.3rem;
-    font-weight: 400;
-    color: #fff;
-}
-
-.card_img a:hover {
-    background: white;
-    color:rgb(138, 138, 59) ;
-    border: 1px solid rgb(138, 138, 59) ;
-}
-
-/* review part */
-
-/* .review h4 , .review label {
-    color: rgb(19, 19, 12);
-    font-size: 1.6rem;
-    font-weight: 500;
-}
-
-.review ul{
-    list-style: none;
-    font-size: 1.2rem;
-}
-
-.rev_btn, .review textarea{
-    padding: 0.3rem;
-    border-radius: 0.2rem;
-}
-
-.rev_btn:hover{
-    box-shadow: 0 0 0.5rem white;
-    background: rgb(164, 123, 138);
-} */
-
 *{
     margin: 0;
     padding: 0;
@@ -134,8 +24,8 @@
     height: 300px;
     border-radius: 13px;
     box-shadow: 4px 7px 7px;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
 }
 
 /* ====== Form Control ======= */
@@ -161,17 +51,17 @@
   
 .elem-group label {
     display: block;
-    /* font-family: 'Nanum Gothic'; */
     padding-bottom: 10px;
     font-size: 1.25em;
 }
   
 .elem-group input, select, textarea {
-    border-radius: 2px;
+    border-radius: 10px;
     box-sizing: border-box;
     font-size: 1.25em;
     width: 100%;
     padding: 10px;
+    color: rgb(0, 0, 0);
 }
 
 .elem-group.inlined input {
