@@ -1,7 +1,7 @@
 let Name = document.querySelector("#name");
 let Address = document.querySelector("#address");
 let Price = document.querySelector("#price");
-let Pic = document.querySelector("#file");
+let Pic = document.querySelector("#homefile");
 let Room = document.querySelector("#room");
 let cards = document.querySelector(".wrapper");
 
@@ -13,7 +13,7 @@ const addCard = ()=> {
     cards.append(newCard);
 
     let data = newCard.innerHTML =`
-    <img src= ${File.value} alt="image">
+    <img src= ${URL.createObjectURL(Pic.files[0])} alt="image">
     <div class="info">
         <h1>${Name.value}</h1>
         <p>Rent House Price : ${Price.value}</p>

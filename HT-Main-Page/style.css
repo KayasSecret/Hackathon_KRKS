@@ -125,16 +125,20 @@ ul li a:hover{
 .about {
     display: flex;
     margin: 0;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    gap: 3rem;
+    /* gap: 3rem; */
     background-image: linear-gradient(white, rgb(88, 88, 47));
     height: 100vh;
 }
 
+.about-content{
+    width: 60vw;
+}
+
 .about-content h2{
     text-align: left;
-    line-height: 1.2;
+    /* line-height: 1.2;  */
 }
   
 .about-content h3{
@@ -143,12 +147,12 @@ ul li a:hover{
   
 .about-content p{
     font-size: 1.3rem;
-    margin: 1rem 5rem 0 0;
+    margin: 1rem 2rem 0 0;
 }
 
 .about-img {
     height: 40rem;
-    width: 50rem;
+    width: 40rem;
     filter: drop-shadow(5px 5px 10px #050505);
     animation: floatImage-ab 3s ease-in-out infinite;
 }
@@ -200,6 +204,7 @@ ul li a:hover{
 }
   
 .services-box h3{
+    text-align: center;
     padding-top: 1rem;
     font-size: 2rem;
 }
