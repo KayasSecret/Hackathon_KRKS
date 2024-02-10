@@ -99,15 +99,15 @@
     display: inline-block;
 }
   
-  textarea {
+textarea {
     height: 250px;
-  }
+}
   
-  hr {
+hr {
     border: 1px dotted #ccc;
-  }
+}
   
-  button {
+button {
     height: 50px;
     background: orange;
     border: none;
@@ -117,8 +117,8 @@
     border-radius: 4px;
     cursor: pointer;
     padding: 0 12px;
-  }
+}
   
-  button:hover {
-    background: #333;
-  }
+button:hover {
+    background: #009225;
+}
