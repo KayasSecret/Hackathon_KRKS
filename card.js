@@ -19,7 +19,7 @@ const addCard = ()=> {
         <p>Rent House Price : ${Price.value}</p>
         <p> <i class="fa-solid fa-location-dot"></i> ${Address.value}</p>
         <p>Room : ${Room.value}</P>
-        <a onclick = "createCardInfo();  event.preventDefault();" class="btn">Read More</a>
+        <a onclick = "createCardInfo();" class="btn">Read More</a>
     </div>`
 }
 
@@ -32,6 +32,8 @@ let newBtn = document.querySelector(".new-btn");
 // creating Card-info
 
 const createCardInfo = () =>{
+
+    window.open("/Cards-info/card.html");
     let newCardInfo = document.createElement("div");
     newCardInfo.classList.add("card_info");
     document.getElementsByTagName("body").append(newCardInfo);
