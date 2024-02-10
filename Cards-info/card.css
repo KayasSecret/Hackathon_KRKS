@@ -119,3 +119,9 @@
     font-family: 'Bitter' , 'Oxygen' , 'Roboto';
     text-align:justify;
 }
+
+.image-col {
+    display: inline-block;
+    width: 5rem;
+    height: 5rem;
+}
