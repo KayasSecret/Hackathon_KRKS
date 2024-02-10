@@ -10,6 +10,7 @@
     text-align:justify;
 }
 
+
 .image-row {
     display: flex; 
     float: left;
@@ -28,7 +29,13 @@
     margin-bottom: 2rem;
 }
 
-/* Card Rooms Information */
+.card-info-c h1 {
+    height: 4rem;
+    margin-left: 35.2rem;
+    margin-top: 2.5rem;
+}
+
+/* ===== Card Rooms Information ===== */
 
 .card-det {
     height: fit-content;
@@ -92,15 +99,15 @@
     display: inline-block;
 }
   
-  textarea {
+textarea {
     height: 250px;
-  }
+}
   
-  hr {
+hr {
     border: 1px dotted #ccc;
-  }
+}
   
-  button {
+button {
     height: 50px;
     background: orange;
     border: none;
@@ -110,8 +117,109 @@
     border-radius: 4px;
     cursor: pointer;
     padding: 0 12px;
-  }
+}
   
-  button:hover {
-    background: #333;
-  }
+button:hover {
+    background: #009225;
+}
+
+/* ==== Footer ===== */
+
+.foot-container {
+    max-width: 90.1rem;
+    background-color: #000000;
+    margin: auto;
+}
+
+.row-f {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.foot-col ul {
+    list-style: none;
+    margin-top: 1.2rem;
+}
+
+.footer {
+    background-color: #000000;
+    padding-top: 2rem;
+    padding-bottom: 8rem;
+}
+
+.foot-col {
+    width: 20%;
+    padding: 0;
+}
+
+.foot-col h4 {
+    font-size: 1.2rem;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-left: 2.5rem;
+    margin-top: 1rem;
+    font-weight: 500;
+    position: relative;
+}
+
+.foot-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    background-color: teal;
+    height: 2px;
+    box-sizing: border-box;
+    width: 5rem;
+}
+
+.foot-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.foot-col ul li a {
+    padding-left: 20px;
+    font-size: 1rem;
+    text-transform: capitalize;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.foot-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 10px;
+}
+
+.foot-col .social-links a {
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.social-link-f a{
+    text-decoration: none;
+    justify-content: center;
+}
+
+.social-link-f a i {
+    color: white;
+    font-size: 1.4rem;
+    margin:0.5rem;
+}
+
+.img-foot{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    background-color: white;
+    background-image: url(/images/footer.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
