@@ -1,4 +1,4 @@
-.card_info{
+/*.card_info{
     height:fit-content;
     display: grid;
     grid-template-areas: 
@@ -45,7 +45,7 @@
 }
 
 /* Owner Card */
-#checkbox{
+/* #checkbox{
     width: fit-content;
 }
 
@@ -73,7 +73,7 @@
     padding: 0.5rem;
     border:1px solid transparent;
     /* background: rgb(4, 187, 187);  */
-    background:  rgb(138, 138, 59); 
+    /* background:  rgb(138, 138, 59); 
     font-size: 1.3rem;
     font-weight: 400;
     color: #fff;
@@ -87,7 +87,7 @@
 
 /* review part */
 
-.review h4 , .review label {
+/* .review h4 , .review label {
     color: rgb(19, 19, 12);
     font-size: 1.6rem;
     font-weight: 500;
@@ -106,4 +106,16 @@
 .rev_btn:hover{
     box-shadow: 0 0 0.5rem white;
     background: rgb(164, 123, 138);
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Bitter' , 'Oxygen' , 'Roboto';
+    text-align:justify;
 }
