@@ -459,8 +459,9 @@ ul li a:hover{
 }
 
 .newEnt-btn:hover{
+    color: #fff;
     box-shadow: 0 0 0.5rem white;
-    background: rgb(164, 123, 138);
+    background: rgb(2, 218, 85);
 }
 
 /* =====footer===== */
