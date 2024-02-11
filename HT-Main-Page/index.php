@@ -131,5 +131,7 @@ $sql = "INSERT INTO register (name, email, phone, address, rooms, price, floor, 
     
 $stmt->close();
 
+header("location: index.html");
+
 $conn->close();
 ?>
