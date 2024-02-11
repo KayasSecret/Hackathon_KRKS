@@ -39,6 +39,7 @@ if ($conn->query($sql_create_table) === TRUE) {
     echo "Error creating table: " . $conn->error;
 }
 
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
 $name = $_POST["name"];
 $email = $_POST["email"];
 $phone = $_POST["phone"];
@@ -59,15 +60,25 @@ if (empty($_POST["name"])) {
     }
 }
 
- if (empty($_POST["email"])) {
-    $emailErr = "Email is required";
- } else {
-    $email = $_POST["email"];
-        // check if e-mail address is well-formed
-        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        $emailErr = "Invalid email format";
-        }
-    }
+if (empty($email)) {
+      $emailErr = "Email is required";
+      } else {
+            // check if e-mail address is well-formed
+            if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+                $emailErr = "Invalid email format";
+                } else {
+                     // Check if email already exists in the database
+                    $sql_check_email = "SELECT id FROM register WHERE email = ?";
+                     $stmt = $conn->prepare($sql_check_email);
+                     $stmt->bind_param("s", $email);
+                     $stmt->execute();
+                     $result = $stmt->get_result();
+                     if ($result->num_rows > 0) {
+                          $emailErr = "Email already exists";
+                      }
+                      $stmt->close();
+                  }
+              }
     
 if (empty($_POST["phone"])) {
     $phoneErr = "Invalid phone number format";
@@ -134,4 +145,5 @@ $stmt->close();
 header("location: index.html");
 
 $conn->close();
+}
 ?>
