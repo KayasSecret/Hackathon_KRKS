@@ -68,7 +68,7 @@ if (empty($email)) {
                 $emailErr = "Invalid email format";
                 } else {
                      // Check if email already exists in the database
-                    $sql_check_email = "SELECT id FROM users WHERE email = ?";
+                    $sql_check_email = "SELECT id FROM register WHERE email = ?";
                      $stmt = $conn->prepare($sql_check_email);
                      $stmt->bind_param("s", $email);
                      $stmt->execute();
