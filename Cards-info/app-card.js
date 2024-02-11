@@ -27,13 +27,13 @@
 // Review Add js
 
 let custName = document.querySelector(".custName");
-let revDate = document.querySelector(".revDate");
+let revDate = document.querySelector(".revdate");
 let rev = document.querySelector(".rev");
 let revAddBtn = document.querySelector(".revAdd");
 let revList = document.querySelector(".revList");
 
 revAddBtn.addEventListener("click", ()=>{
     let newRev = document.createElement('li');
-    let revData = newRev.innerText = `${revDate} ${rev.value} ~ ${custName.value}`;
+    let revData = newRev.innerText = `${revDate.value}, ${rev.value} ~ ${custName.value}`;
     revList.append(revData);
 })
