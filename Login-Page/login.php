@@ -114,7 +114,7 @@
 		if ($_SERVER["REQUEST_METHOD"] == "POST") {
 		$name = $_POST["name"];
 		$email = $_POST["email"];
-		$password = $_POST["pawssword"];
+		$password = $_POST["password"];
 
 		if (empty($_POST["name"])) {
 			$nameErr = "Name is required";
