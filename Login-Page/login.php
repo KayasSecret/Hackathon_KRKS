@@ -111,7 +111,7 @@
 			// Check if the password meets the criteria
 			return strlen($password) >= $min_length && $has_uppercase && $has_lowercase && $has_number && $has_special_char;
 		}
-
+		if ($_SERVER["REQUEST_METHOD"] == "POST") {
 		$name = $_POST["name"];
 		$email = $_POST["email"];
 		$password = $_POST["pawssword"];
@@ -151,6 +151,7 @@
 		}
 
 		$conn->close();
+		}
     ?>
 
 
