@@ -85,11 +85,11 @@ const createCardInfo = () =>{
          <h1>House Information</h1>
             <div class="image-row">
                 <img src= ${URL.createObjectURL(roomPic.files[0])} alt="">
-                <img src= ${URL.createObjectURL(roomPic.files[0])} alt="">
-                <img src= ${URL.createObjectURL(roomPic.files[0])} alt="">
-                <img src= ${URL.createObjectURL(roomPic.files[0])} alt="">
-                <img src= ${URL.createObjectURL(roomPic.files[0])} alt="">
-                <img src= ${URL.createObjectURL(roomPic.files[0])} alt="">
+                <img src= ${URL.createObjectURL(roomPic.files[1])} alt="">
+                <img src= ${URL.createObjectURL(roomPic.files[2])} alt="">
+                <img src= ${URL.createObjectURL(roomPic.files[3])} alt="">
+                <img src= ${URL.createObjectURL(roomPic.files[4])} alt="">
+                <img src= ${URL.createObjectURL(roomPic.files[5])} alt="">
             </div> 
         </section>
         <br>
