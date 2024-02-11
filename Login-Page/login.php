@@ -125,15 +125,25 @@
 				$nameErr = "Only letters, hyphens, apostrophes, and spaces allowed";
 			}
 		}
-		if (empty($_POST["email"])) {
-			$emailErr = "Email is required";
-		} else {
-			$email = $_POST["email"];
-			// check if e-mail address is well-formed
-			if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-			$emailErr = "Invalid email format";
-			}
-			}
+		if (empty($email)) {
+                    $emailErr = "Email is required";
+                } else {
+                    // check if e-mail address is well-formed
+                    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+                        $emailErr = "Invalid email format";
+                    } else {
+                        // Check if email already exists in the database
+                        $sql_check_email = "SELECT id FROM users WHERE email = ?";
+                        $stmt = $conn->prepare($sql_check_email);
+                        $stmt->bind_param("s", $email);
+                        $stmt->execute();
+                        $result = $stmt->get_result();
+                        if ($result->num_rows > 0) {
+                            $emailErr = "Email already exists";
+                        }
+                        $stmt->close();
+                        }
+                    }
 			
 		if (empty($password)) {
 			$passwordErr = "Password is required";
