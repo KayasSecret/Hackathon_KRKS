@@ -63,7 +63,6 @@
   
 .elem-group.inlined {
     width: 49%;
-    /* display: inline-block; */
     float: left;
     margin-left: 1%;
 }
@@ -115,7 +114,7 @@ button:hover {
 
 /* ====Rev Section====  kayash */
 
-/* .contain-rev {
+.contain-rev {
     height: 100vh;
     width: 100%;
     display: flex;
@@ -149,7 +148,7 @@ button:hover {
 .slide p {
     text-align: center;
     padding: 0 160px;
-} */
+} 
 
 /* ==== review Section  {Sneha} ===== */
 
