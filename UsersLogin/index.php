@@ -25,10 +25,10 @@ $result = mysqli_query($conn, $sql);
 $num = mysqli_num_rows($result);
 if($num == 1){
     $login = true;
-    echo 'logged in';
-    session_start();
-    $_SESSION['loggedin']= true;
-    $_SESSION['name'] = $name;
+   //echo 'logged in';
+    //session_start();
+    //$_SESSION['loggedin']= true;
+    //$_SESSION['name'] = $name;
     header("location: index.html");
 }
 else{
