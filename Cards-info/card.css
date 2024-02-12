@@ -93,7 +93,6 @@ textarea {
   
 hr {
     border: 1px dotted black;
-    /* border: 1px dotted #ccc; */
 }
   
 button {
@@ -112,7 +111,7 @@ button:hover {
     background: #009225;
 }
 
-/* ====Rev Section {kayash}=====  */
+/* ========= Owner Plating (Balmukund Rastogi) ========  */
 
 .contain-rev {
     height: 100vh;
@@ -176,7 +175,7 @@ button:hover {
     color: #333;
 }
 
-/* ==== review Section  {Sneha} ===== */
+/* ======= Review Section ======== */
 
 .review_box{
     width: 25vw;
