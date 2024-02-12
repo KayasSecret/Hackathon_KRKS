@@ -182,7 +182,7 @@ ul li a:hover {
     gap: 2rem;
 }
   
-.services-container .services-box{
+.services-container .services-box {
     height: fit-content;
     flex: 1 1 30rem;
     background:teal;
@@ -193,28 +193,28 @@ ul li a:hover {
     transition: 0.5s ease;
 }
   
-.services-container .services-box:hover{
+.services-container .services-box:hover {
     transform: scale(1.02);
 }
   
-.services-box i{
+.services-box i {
     text-align: center;
     font-size: 3rem;
     color: rgb(194, 194, 0);
 }
   
-.services-box h3{
+.services-box h3 {
     text-align: center;
     padding-top: 1rem;
     font-size: 2rem;
 }
   
-.services-box p{
+.services-box p {
     font-size: 1.2rem;  
     color: #f7f6f6;
 }
 
-.btn_k , .btn-ab{
+.btn_k , .btn-ab {
     display: inline-block;
     padding: 0.5rem; 
     margin-top: 0.5rem;   
@@ -227,7 +227,7 @@ ul li a:hover {
     text-decoration: none;
 }
 
-.btn_k:hover , .btn-ab:hover{
+.btn_k:hover , .btn-ab:hover {
     box-shadow: 0 0 0.5rem white;
 }
   
