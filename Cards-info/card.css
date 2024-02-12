@@ -186,13 +186,14 @@ button:hover {
 /* ======= Review Section ======== */
 
 .review_box{
-    width: 36vw;
+    width: 35vw;
     height: 89rem;
     background-color:rgb(141, 140, 140);
     float: right;
     border-radius: 1rem;
     margin-right: 1vw ;
     padding: 1rem;
+    box-shadow: 8px 8px 8px #474747;
 }
 
 .review_box h4{
