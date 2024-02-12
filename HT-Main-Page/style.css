@@ -42,17 +42,12 @@ input::placeholder , textarea::placeholder{
     width:fit-content;
     font-size: 2.5rem;
     font-weight: 60rem;
-    font-style: italic;
 }
 
 .head-f1 img {
     height: 4.4rem;
     width: 5rem;
     padding-bottom: 0.9rem;
-}
-
-.head-f1::first-letter {
-    color: #fbff00;
 }
 
 .head-f2 {
