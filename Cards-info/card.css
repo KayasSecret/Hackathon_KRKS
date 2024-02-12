@@ -160,11 +160,6 @@ button:hover {
     color: #333;
 } 
 
-.slide .quote-icon {
-    font-size: 30px;
-    color: #4070f4;
-}
-
 .slide .details-rev {
     display: flex;
     flex-direction: column;
@@ -178,7 +173,7 @@ button:hover {
 }
 
 .details-rev .rev-place {
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 400;
     color: #333;
 }
