@@ -154,8 +154,8 @@ button:hover {
 
 .slide p {
     text-align: center;
-    padding: 0 160px;
-    font-size: 14px;
+    padding: 0 5px;
+    font-size: 20px;
     font-weight: 400;
     color: #333;
 } 
@@ -172,7 +172,7 @@ button:hover {
 }
 
 .details-rev .rev-name {
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 600;
     color: #333;
 }
