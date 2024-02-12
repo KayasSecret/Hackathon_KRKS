@@ -422,7 +422,6 @@ ul li a:hover {
 .newEntry{
     background-image: linear-gradient(white, rgb(88, 88, 47));
     height: 100vh;
-    /* width: 100vw; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -453,11 +452,11 @@ ul li a:hover {
 }
 
 .newEnt-Form input{
-    width:40%;
+    width: 40%;
     margin: 0.5rem;
     padding: 0.5rem;
     font-size: 1.3rem;
-    border-radius: 0.5rem;
+    border-radius: 0.5rem; 
     border: 1px solid transparent;
 }
 
