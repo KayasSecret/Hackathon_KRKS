@@ -186,22 +186,23 @@ button:hover {
 /* ======= Review Section ======== */
 
 .review_box{
-    width: 50vw;
-    height: 90rem;
-    background-color:rgb(0, 0, 0);
+    width: 36vw;
+    height: 89rem;
+    background-color:rgb(141, 140, 140);
     float: right;
     border-radius: 1rem;
-    margin-right: 5vw ;
+    margin-right: 1vw ;
     padding: 1rem;
 }
 
 .review_box h4{
     text-align: center;
+    color: white;
 }
 
 .cust_rev ul li {
     list-style: none;
-    padding: 0.5rem;
+    padding: 0.8rem;
 }
 
 .add_rev input{
