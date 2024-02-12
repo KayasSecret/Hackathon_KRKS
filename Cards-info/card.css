@@ -34,15 +34,22 @@
 }
 
 .more-info{
-    background-color: rgb(223, 243, 243);
+    color: white;
+    background-color: rgb(0, 129, 129);
     padding: 1rem;
     border-radius: 1rem;
-    margin: 0.2rem;
-    box-shadow: 4px 7px 7px;
+    align-items: center;
+    box-shadow: 8px 8px 8px #474747;
+}
+
+.more-info h3 {
+    margin-left: 5rem;
+    font-weight: 900;
 }
 
 .more-info p {
-    font-weight: 500;
+    color: rgb(243, 243, 243);
+    font-weight: 100;
     padding: 0rem 2rem 0 2rem;
     font-size: 1.3rem;
 }
@@ -55,6 +62,7 @@
     background: #6e783e;
     border-radius: 1%;
     color: aliceblue;
+    box-shadow: 8px 8px 8px #474747;
 }
   
 .elem-group {
