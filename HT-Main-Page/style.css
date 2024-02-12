@@ -422,6 +422,7 @@ ul li a:hover {
 .newEntry{
     background-image: linear-gradient(white, rgb(88, 88, 47));
     height: 100vh;
+    /* width: 100vw; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -433,8 +434,13 @@ ul li a:hover {
     font-size: 2.5rem;
 }
 
+.newEntry p {
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+}
+
 .newEnt-Form{
-    width: 50vw;
+    width: 60vw;
     height: fit-content;
     display: flex;
     justify-content: center;
@@ -455,7 +461,7 @@ ul li a:hover {
     border: 1px solid transparent;
 }
 
-.file:hover{
+.file:hover {
     box-shadow: none;
 }
 
