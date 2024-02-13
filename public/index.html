@@ -1,0 +1,277 @@
+<!-- ======== Hackathon Project ======== -->
+<!-- ======== KSRK ======== -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rent Pay - The rental house</title>
+    <!--Bootstrap Link (CDN)-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+
+    <!--Normal CSS file-->
+    <link rel="stylesheet" href="style.css">
+    
+    <!--Logo-->
+    <link rel="shortcut icon" href="/images/logo-k.jpg" type="image/x-icon">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;600;700;800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--Box IconLink -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+</head>
+<body>
+   <header id="Home"> 
+        <!-- ====== Navigation Section ======= -->
+        <nav class="nav" data-spy="affix">
+            <div class="head-f1">
+               <img src="/images/logo-k-removebg-preview.png"> Rental Pay
+            </div>
+            <div class="head-f2">
+                <ul class="nav_btn">
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#Rent_House">RentHouse</a></li>
+                    <li><a class="btn btn-primary" href = "/Login-Page/login.html"> Log in/Sign Up</a></li>
+                </ul>
+            </div>
+        </nav>
+        <br>
+        
+        <!-- ====== Home Section ====== -->
+        <div class="head_cont">
+            <div class="tagline">
+                <div class="heading">
+                    <h1>We Let , You Live</h1>
+                </div>
+                <div class="description">
+                    <p>Hello! Welcome to our rental property web page. We are here to provide you with an experience of feeling at home. Our platform is designed to make it easy for you to reach your dream home.</p>
+                </div>
+                <div class="learn"><a href="#services" class="btn btn-success">Learn More</a></div>
+            </div>
+            <div class="home-img"></div>
+        </div>
+    </header>
+
+    <!-- ====== About Section ====== -->
+    <section class="about" id="about">
+        <div class="about-img">
+          <img src="/images/about-img.png" alt="about">
+        </div>
+        <div class="about-content">
+          <h2 class="heading-ab">About <span>Us</span></h2>
+          <h3>Rental Pay</h3>
+          <p>Welcome to Rental Rover, your ultimate destination for finding the perfect rental property tailored to your needs. Whether you're seeking a cozy apartment in the heart of the city or a spacious suburban home, we're here to make your search easier and more efficient.
+
+            We understand that finding the right place to call home is a significant decision. That's why we've curated a comprehensive platform that connects renters with landlords, streamlining the process and ensuring a seamless experience for all.</p>
+        <a href="#services" class="btn-ab">Read More</a>
+        </div>
+    </section>
+    <br>
+ 
+    <!-- ====== Services section design ====== -->
+    <section class="services" id="services">
+      <h2 class="head_serv">Our Services</h2>
+        <div class="services-container">
+          <div class="services-box">
+            <i class="fa-solid fa-house-user"></i>
+            <h3>Do you want a House on Rent?</h3>
+            <p>Welcome to our web site! "Rent Pay" Rental Homes, we specialize in providing comfortable and convenient rental housing solutions tailored to meet your needs. With a passion for helping individuals find their ideal living spaces.</p>  
+            <a href="#Rent_House" class="btn_k">Read More</a>
+          </div>
+
+          <div class="services-box">
+            <i class="fa-solid fa-house"></i>
+            <h3>Do you want to rent out your house?</h3>
+            <p>Welcome to our web site! If you also want to give your house on rent then you have come to the right place. We would be happy if we can help you a little. For more information click on the button below. Thank you for visiting our webiste.</p>
+            <a href="#newEntry" class="btn_k">Add Yours</a>
+          </div>
+
+          <div class="services-box" style="flex-grow: 2;">
+            <i class="fa-solid fa-coins"></i>
+            <h3>Donate something for poor childrens</h3>
+            <p>Apart from this website, we are also trying to do some good work. In which we are collecting some funds which we can use for those children who do not have money for house and they have to survive in hut. Please join us in this good cause.</p>
+            <a href="#" class="btn_k">Donate</a>
+          </div>
+        </div>
+    </section>
+    
+    <!-- ====== Rent House Section ====== -->
+    <br> 
+    <main id="Rent_House">
+        <h2 class="main_heading ">Rent Houses</h2>
+        <form class="search_control">
+            <div class="search_box">
+                <i class="fa-solid fa-magnifying-glass search_icon"></i>
+                <input class="search_bar" type="search" placeholder="Search on location / Price / Room" aria-label="Search">
+            </div>
+            <button class="search_btn" type="submit">Search</button>
+        </form>
+        <br>
+        <section class="frod">
+            <div class="wrapper">
+                <div class="card-s">
+                    <img src="/images/House-image/k1.jpg" alt="">
+                    <div class="info">
+                        <h1>Kayas Home</h1>
+                        <p>Rent House Price : $29</p>
+                        <p> <i class="fa-solid fa-location-dot"></i> North Pateri , Satna</p>
+                        <p>Room : 2BHK</p>
+                        <a href="/Cards-info/card.html" class="btn">Read More</a>
+                    </div>
+                </div>
+                <div class="card-s">
+                    <img src="/images/House-image/k2.jpg" alt="">
+                    <div class="info">
+                        <h1>Sneha & Kajal House</h1>
+                        <p>Rent House Price : $23</p>
+                        <p> <i class="fa-solid fa-location-dot"></i> Gadhiya Tola , Satna</p>
+                        <p>Room : 2BHK</p>
+                        <a href="/Cards-info/card.html"  class="btn">Read More</a>
+                    </div>
+                </div>
+                <div class="card-s">
+                    <img src="/images/House-image/k3.jpg" alt="">
+                    <div class="info">
+                        <h1>Ritik House</h1>
+                        <p>Rent House Price : $59</p>
+                        <p> <i class="fa-solid fa-location-dot"></i> Civil Line , Satna</p>
+                        <p>Room : 2BHK</p>
+                        <a href="/Cards-info/card.html"  class="btn">Read More</a>
+                    </div>
+                </div>
+                <div class="card-s">
+                    <img src="/images/House-image/k1.jpg" alt="">
+                    <div class="info">
+                        <h1>Abhishek House</h1>
+                        <p>Rent House Price : $26</p>
+                        <p> <i class="fa-solid fa-location-dot"></i> Mukhtyarganj , Satna</p>
+                        <p>Room : 2BHK</p>
+                        <a href="/Cards-info/card.html"  class="btn">Read More</a>
+                    </div>
+                </div>
+                <div class="card-s">
+                    <img src="/images/House-image/k2.jpg" alt="">
+                    <div class="info">
+                        <h1>Ekta House</h1>
+                        <p>Rent House Price : $50</p>
+                        <p> <i class="fa-solid fa-location-dot"></i> Bus Stand , Satna</p>
+                        <p>Room : 2BHK</p>
+                        <a href="/Cards-info/card.html"  class="btn">Read More</a>
+                    </div>
+                </div>
+                <div class="card-s">
+                    <img src="/images/House-image/k3.jpg" alt="">
+                    <div class="info">
+                        <h1>Shivangi House</h1>
+                        <p>Rent House Price : $40</p>
+                        <p> <i class="fa-solid fa-location-dot"></i> Nazirabad , Satna</p>
+                        <p>Room : 2BHK</p>
+                        <a href="/Cards-info/card.html"  class="btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ====== Entry Section ====== -->
+        <section class="newEntry" id="newEntry">
+            <h2>Add Your House Information</h2>
+            <form class="newEnt-Form" action="/register" method="POSt">
+                <label for="name"></label>
+                <input type="text" name="name" id="name" placeholder="Full Name" required>
+                
+                <label for="email"></label>
+                <input type="email" name="email" id="email" placeholder="Email Address" required >
+                
+                <label for="contact"></label>
+                <input type="phone" name="phone" id="contact" placeholder="Contact number" required>
+                
+                <label for="address"></label>
+                <input type="text" name="address" id="address" placeholder="Address" required>
+                
+                <label for="rooms"></label>
+                <input type="text" name="rooms" id="room" placeholder="Rooms(BHK)" required>
+                
+                <label for="price"></label>
+                <input type="text" name="price" id="price" placeholder="Price of room/month" required>
+                
+                <label for="floor"></label>
+                <input type="text" name="floor" id="floor" placeholder="Floor " required>
+                
+                <label for="registration_date"></label>
+                <input type="date" name="booking" id="reg_date" placeholder="registration date" required>
+            
+                <!--<p class="Housefile">
+                    <label for="house_img">Upload House Image (Max-1): </label>
+                    <input type="file" name="house_img" id="homefile" class="file">
+                </p>
+                <p class="Roomfiles">
+                    <label for="room_img">Upload Room Images (Max-6):</label>
+                    <input type="file" name="room_img" id="roomfiles" class="file" multiple="multiple" >
+                </p> -->
+                <button class="newEnt-btn" onclick=" addCard();  event.preventDefault();" type="submit">Upload</button>
+            </form>
+        </section>
+        <br> 
+    </main>
+
+    <!-- ====== Footer Section ====== -->
+    <footer class="footer">
+        <div class="foot-container">
+            <div class="row-f">
+                <div class="foot-col">
+                    <h4>Webiste</h4>
+                    <ul>
+                       <li><a href="#Home">Home</a></li>
+                       <li><a href="#about">About</a></li>
+                       <li><a href="#services">Services</a></li>
+                       <li><a href="#Rent_House">RentHouse</a></li>
+                    </ul>
+                </div>
+                <div class="foot-col">
+                    <h4>Get Help</h4>
+                    <ul>
+                       <li><a href="#">Privacy</a></li>
+                       <li><a href="#">Terms & Condition</a></li>
+                       <li><a href="#">Payment Option</a></li>
+                       <li><a href="#">FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="foot-col">
+                    <h4>Developers</h4>
+                    <ul>
+                       <li><a href="#">Kayas Mishra</a></li>
+                       <li><a href="#">Sneha Goyal</a></li>
+                       <li><a href="#">Ritik Gupta</a></li>
+                       <li><a href="#">Kajal Gupta</a></li>
+                    </ul>
+                </div>
+                <div class="foot-col">
+                    <h4>Follow Us</h4>
+                    <div class="social-link-f">
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-discord"></i></a>
+                    </div>
+                    <div class="img-foot"></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--== JS (Bootstrap) ==-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- js file -->
+    <script src="app.js"></script>
+</body>
+</html>
