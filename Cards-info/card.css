@@ -127,7 +127,11 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #e3f2fd;
+    background-color: #006cb9; 
+}
+
+.contain-rev span {
+    color: rgb(247, 0, 0);
 }
 
 .rev-test {
@@ -157,7 +161,7 @@ button:hover {
     padding: 0 5px;
     font-size: 20px;
     font-weight: 400;
-    color: #333;
+    color: #ffffff;
 } 
 
 .slide .details-rev {
@@ -169,13 +173,14 @@ button:hover {
 .details-rev .rev-name {
     font-size: 20px;
     font-weight: 600;
-    color: #333;
+    color: #ffffff;
 }
 
 .details-rev .rev-place {
     font-size: 16px;
     font-weight: 400;
-    color: #333;
+    color: #fffefe;
+    margin-right: 1rem;
 }
 
 /* ======= Review Section ======== */
