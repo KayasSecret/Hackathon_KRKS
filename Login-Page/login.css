@@ -27,21 +27,23 @@ body {
     padding-bottom: 1rem;
     position: fixed;
     top: 0px;
-    z-index:9999 ;
+    z-index: 9999;
 }
 
 .head-f1 {
     color: white;
     margin-right: 1rem;
+	margin-top: 0.9rem;
     width:fit-content;
     font-size: 2.5rem;
-    font-weight: 60rem;
 }
 
-.head-f1 img {
+.nav img {
     height: 4.4rem;
     width: 5rem;
-    padding-bottom: 0.9rem;
+    padding-top: 0.9rem;
+	margin-top: 0.2rem;
+	margin-left: 12rem;
 }
 
 .head-f2 {
@@ -51,7 +53,7 @@ body {
 }
 
 .head-f2 ul{
-    margin: 0;
+    margin: 0rem;
     padding: 0;
     display: flex;
     justify-content: space-evenly;
@@ -62,6 +64,7 @@ body {
 .nav ul li a {
     border-radius: 1rem;
     text-decoration: none; 
+	font-size: 1.3rem;
     padding: 0.5rem;
     color: rgb(255, 251, 251);
     border-bottom: 3px solid transparent;
