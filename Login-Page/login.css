@@ -15,6 +15,63 @@ body {
 	margin: -20px 0 50px;
 }
 
+/* ======== Navigation Bar ======== */
+
+.nav{
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    background-color:  rgb(116, 116, 50);
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 1rem;
+    position: fixed;
+    top: 0px;
+    z-index:9999 ;
+}
+
+.head-f1 {
+    color: white;
+    margin-right: 1rem;
+    width:fit-content;
+    font-size: 2.5rem;
+    font-weight: 60rem;
+}
+
+.head-f1 img {
+    height: 4.4rem;
+    width: 5rem;
+    padding-bottom: 0.9rem;
+}
+
+.head-f2 {
+    margin-bottom: 0.2rem;
+    width: 65%;
+    font-size: 1.4rem;
+}
+
+.head-f2 ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none; 
+}
+
+.nav ul li a {
+    border-radius: 1rem;
+    text-decoration: none; 
+    padding: 0.5rem;
+    color: rgb(255, 251, 251);
+    border-bottom: 3px solid transparent;
+}
+
+.nav ul li a:hover {
+    box-shadow: 5px 5px 10px rgb(255, 255, 255);
+}
+
+
 h1 {
 	font-weight: bold;
 	margin: 0;
