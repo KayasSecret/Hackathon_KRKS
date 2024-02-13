@@ -16,6 +16,8 @@ var db = mysql.createConnection({
 
 app.use(bodyParser.json());
 app.use(express.static('public'));
+app.use(express.static('Cards-info'));
+app.use(express.static('images'));
 app.use(bodyParser.urlencoded({extended:true}));
 
 app.get("/" , function(req,res){
@@ -32,11 +34,13 @@ app.post('/register', function(req,res){
     var price = req.body.price;
     var floor = req.body.floor;
     var booking = req.body.booking;
+    var himg = req.body.house_img;
+    var rimg = req.body.room_img;
     
     db.connect( function(error){
         if(error)throw error;
 
-        var sql = "INSERT INTO newEnt (name , email, phone , address, rooms , price, floor,booking) VALUES ('"+name+"','"+email+"','"+phone+"','"+address+"','"+rooms+"','"+price+"','"+floor+"','"+booking+"')";
+        var sql = "INSERT INTO newEnt (name , email, phone , address, rooms , price, floor,booking,himg, rimg) VALUES ('"+name+"','"+email+"','"+phone+"','"+address+"','"+rooms+"','"+price+"','"+floor+"','"+booking+"','"+himg+"','"+rimg+"')";
         db.query(sql,function(error,result){
             if(error)throw error;
             // res.send('student Register' + result.insertId);
@@ -55,6 +59,7 @@ app.get('/newData', function (req,res){
         });
     })
 })
+
 
 app.listen(5500);
 
