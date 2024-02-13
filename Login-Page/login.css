@@ -10,7 +10,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	font-family: 'Montserrat', sans-serif;
+    font-family: 'Bitter' , 'Oxygen' , 'Roboto';
 	height: 100vh;
 	margin: -20px 0 50px;
 }
@@ -21,6 +21,7 @@ h1 {
 }
 
 h2 {
+	font-size: 2rem;
 	text-align: center;
 }
 
@@ -45,8 +46,8 @@ a {
 
 button {
 	border-radius: 20px;
-	border: 1px solid #FF4B2B;
-	background-color: #FF4B2B;
+	border: 1px solid rgb(116, 116, 50);
+	background-color:rgb(116, 116, 50);
 	color: #FFFFFF;
 	font-size: 12px;
 	font-weight: bold;
@@ -159,9 +160,9 @@ input {
 }
 
 .overlay {
-	background: #FF416C;
-	background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
-	background: linear-gradient(to right, #FF4B2B, #FF416C);
+	background: #d6ff41;
+	background: -webkit-linear-gradient(to right, #dfdf58, #cccc59);
+	background: linear-gradient(to right, #747432, #747432);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 0 0;
@@ -215,7 +216,7 @@ input {
 }
 
 .social-container a {
-	border: 1px solid #ff0000;
+	border: 1px solid rgb(116, 116, 50);
 	border-radius: 50%;
 	display: inline-flex;
 	justify-content: center;
