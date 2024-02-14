@@ -1,5 +1,6 @@
 /* ========== KRKS Project =========== */
 /* ================================================= */
+
 /* ========== Universal Property ========== */ 
 
 *{
@@ -131,6 +132,17 @@ ul li a:hover {
 
 .description p {
     font-size: 1.3rem;
+}
+
+.head_cont .tagline .btn-sne {
+    color: white;
+}
+
+.head_cont .tagline .btn-sne:hover {
+    background-color: #f0ff19;
+    color: #000;
+    transform: scale(1rem);
+    border: none;
 }
 
 /* ========== About Section ========== */
