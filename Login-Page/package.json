@@ -6,13 +6,13 @@
   },
   "name": "login-page",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "login.js",
   "devDependencies": {
     "nodemon": "^3.0.3"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "nodemon login.js"
   },
   "author": "",
   "license": "ISC",

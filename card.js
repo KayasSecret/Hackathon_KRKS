@@ -1,30 +1,26 @@
-// creating Connection
-
-const express = require("express");
-const mysql = require("mysql2");
-var bodyParser = require('body-parser');
-
-const app = express();
+var mysql = require("mysql2");
 
 var db = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: 'sneha@23',
-    database :'newCard'
+    host: "localhost",
+    user: "root",
+    password: "sneha@23",
+    database: "dbRent"
 });
 
+const express = require("express");
+const app = express();
+
+var bodyParser = require('body-parser');
 
 app.use(bodyParser.json());
 app.use(express.static('public'));
-app.use(express.static('Cards-info'));
-app.use(express.static('images'));
 app.use(bodyParser.urlencoded({extended:true}));
 
 app.get("/" , function(req,res){
     res.sendFile(__dirname+'/index.html');
 });
 
-app.post('/register', function(req,res){
+app.post('/', function(req,res){
     // console.log(req.body);
     var name = req.body.name;
     var email = req.body.email;
@@ -34,16 +30,16 @@ app.post('/register', function(req,res){
     var price = req.body.price;
     var floor = req.body.floor;
     var booking = req.body.booking;
-    var himg = req.body.house_img;
-    var rimg = req.body.room_img;
+    // var himg = req.body.house_img;
+    // var rimg = req.body.room_img;
     
     db.connect( function(error){
         if(error)throw error;
 
-        var sql = "INSERT INTO newEnt (name , email, phone , address, rooms , price, floor,booking,himg, rimg) VALUES ('"+name+"','"+email+"','"+phone+"','"+address+"','"+rooms+"','"+price+"','"+floor+"','"+booking+"','"+himg+"','"+rimg+"')";
+        var sql = "INSERT INTO newEntry (name , email, phone , address, rooms , price, floor,booking) VALUES ('"+name+"','"+email+"','"+phone+"','"+address+"','"+rooms+"','"+price+"','"+floor+"','"+booking+"')";
         db.query(sql,function(error,result){
             if(error)throw error;
-            // res.send('student Register' + result.insertId);
+            res.send('student Register' + result.insertId);
         });
     });
 });
