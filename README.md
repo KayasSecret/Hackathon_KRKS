@@ -13,4 +13,4 @@ Whether you're a student searching for a cozy dorm room, a young professional se
 Our user-friendly interface, extensive listings, and powerful search filters ensure that your quest for the perfect room is smooth and stress-free.
 But we're not just about listings; we're about making dreams come true. Our dedicated team works tirelessly to provide you with personalized support every step of the way.
 So why settle for less when you can have it all with [Website Name]? Join us today and embark on a journey to find your ideal rental room, because at Rental Pay, your dream space awaits!"
-Feel free to tweak it to better fit your presentation style or add any specific features or benefits of my website
+Feel free to tweak it to better fit your presentation style or add any specific features or benefits of my website.
