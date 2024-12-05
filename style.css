@@ -109,7 +109,7 @@ ul li a:hover {
 .home-img{
     height: 30rem;
     width:40rem;
-    background-image: url(/public/images/myHome.png);
+    background-image: url(/Images/data-image/myHome.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
