@@ -608,7 +608,7 @@ input::placeholder , textarea::placeholder{
     width: 15rem;
     height: 15rem;
     margin-right: 6rem;
-    background-image: url(/public/images/logo-k-removebg-preview.png);
+    background-image: url(/Images/data-image/logo-k-removebg-preview.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
