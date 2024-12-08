@@ -1,6 +1,6 @@
 # Hackathon_KRKS
-# RentalPay Web Clone
-# This is not website copy its name created by my team
+- RentalPay Web Clone
+- This is not website copy its name created by my team
 This is a clone of the **RentalPay** website, created using **HTML**, **CSS**, **Bootstrap**, and **JavaScript**. This project demonstrates front-end development skills and is designed to showcase a fully responsive and visually appealing UI.  
 
 ---
