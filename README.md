@@ -1,7 +1,7 @@
 # Hackathon_KRKS
 - RentalPay Web Clone
 - This is not website copy its name created by my team
-This is a clone of the **RentalPay** website, created using **HTML**, **CSS**, **Bootstrap**, and **JavaScript**. This project demonstrates front-end development skills and is designed to showcase a fully responsive and visually appealing UI.  
+- This is a clone of the **RentalPay** website, created using **HTML**, **CSS**, **Bootstrap**, and **JavaScript**. This project demonstrates front-end development skills and is designed to showcase a fully responsive and visually appealing UI.  
 
 ---
 
@@ -31,7 +31,8 @@ This is College project
 
 ## NOTE
 **[This is the first team web development project]**
-**"Introducing - Rental Pay", your ultimate destination for hassle-free room rentals!**
+
+- "Introducing - Rental Pay", your ultimate destination for hassle-free room rentals! 
 
 - Imagine a platform where finding your ideal living space is not just easy but also delightful. With "Rental Pay", that dream is now a reality.
 
